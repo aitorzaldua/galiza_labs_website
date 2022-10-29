@@ -1,18 +1,22 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Navbar from "./Navbar";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Draft Digital</title>
-        <meta name="description" content="Draft Digital Website" />
-        <link rel="icon" href="/logDD.svg" />
+        <meta
+          name="description"
+          content="Draft Digital is a supercool Blockchain company"
+        />
+        <link rel="icon" href="/logoDD.png" />
       </Head>
-
-      <h1 className="text-3xl font-bold underline text-red-600">
-      Hello world!
-    </h1>
+      <div className="min-h-screen">
+        <div className="gradient-bg-welcome">
+          <Navbar />
+        </div>
+      </div>
     </div>
-  )
+  );
 }
