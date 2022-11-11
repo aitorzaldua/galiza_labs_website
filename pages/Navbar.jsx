@@ -2,7 +2,7 @@
 //import { HiMenuAlt4 } from "react-icons/hi";
 import Image from "next/image";
 
-import logo from "../images/logoDD.png";
+import logo from "../images/DraftDigitalLogo.png";
 
 /* const NavbarItem = ({ title, classProps }) => {
   return <li className="mx-4 cursor-pointer ${classProps}">{title}</li>;

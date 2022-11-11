@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navbar from "./Navbar";
+import Welcome from "./Welcome";
 
 export default function Home() {
   return (
@@ -10,11 +11,12 @@ export default function Home() {
           name="description"
           content="Draft Digital is a supercool Blockchain company"
         />
-        <link rel="icon" href="/logoDD.png" />
+        <link rel="icon" href="/DraftDigitalLogo.png" />
       </Head>
       <div className="min-h-screen">
         <div className="gradient-bg-welcome">
           <Navbar />
+          <Welcome />
         </div>
       </div>
     </div>
