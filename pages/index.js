@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Navbar from "./Navbar";
 import Welcome from "./Welcome";
+import Services from "./Services";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
           <Navbar />
           <Welcome />
         </div>
+        <Services />
       </div>
     </div>
   );
