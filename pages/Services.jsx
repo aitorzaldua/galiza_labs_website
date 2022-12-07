@@ -82,7 +82,7 @@ export default function Services() {
          />
          <ServiceCard
            color=""
-           title="Design"
+           title="Let´s talk"
            icon={<Image src={DD} alt="" />}
            subtitle={
              <a>
