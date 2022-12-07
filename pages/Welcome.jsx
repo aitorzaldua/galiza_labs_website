@@ -15,21 +15,20 @@ export default function Welcome() {
             web.
           </h1>
           <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
-            Draft Digital provides a full suite of expert services to take your
-            decentralized system from idea to production. <br />
-            We are core developers in the most transformative decentralized
-            projects <br />
-            We take your vision to production <br />
-            Read our latest case studies
+          We take your vision to production.
+          At Draft Digital we have a full suite of expert services to take your decentralized system from idea to production.
+          <br />
+          Our mission includes protecting and ensuring network security. 
+          We conduct smart contract, off-chain, network and front-end audits in order to improve the security of your decentralized application.
           </p>
 
           <div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-10">
             <div className={companyCommonStyles}>Reliability</div>
             <div className={companyCommonStyles}>Security</div>
-            <div className={companyCommonStyles}>Ethereum</div>
-            <div className={companyCommonStyles}>Web 3.0</div>
-            <div className={companyCommonStyles}>Low Fees</div>
-            <div className={companyCommonStyles}>Blockchain</div>
+            <div className={companyCommonStyles}>Resilience</div>
+            <div className={companyCommonStyles}>Mature</div>
+            <div className={companyCommonStyles}>Decentralized</div>
+            <div className={companyCommonStyles}>Innovation</div>
           </div>
         </div>
         {/* End of the Left side */}

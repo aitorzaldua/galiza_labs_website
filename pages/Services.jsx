@@ -29,7 +29,7 @@ export default function Services() {
        <div className="flex-1 flex flex-row justify-start items-center w-[85rem]">
          <ServiceCard
            color=""
-           title="Research"
+           title="Web3 Projects"
            icon={<Image src={DD} alt="" />}
            subtitle={
              <a>
@@ -45,7 +45,7 @@ export default function Services() {
          />
          <ServiceCard
            color=""
-           title="Design"
+           title="Audits"
            icon={<Image src={DD} alt="" />}
            subtitle={
              <a>
@@ -66,7 +66,7 @@ export default function Services() {
        <div className="flex-1 flex flex-row justify-start items-center w-[85rem]">
          <ServiceCard
            color=""
-           title="Research"
+           title="Academy"
            icon={<Image src={DD} alt="" />}
            subtitle={
              <a>
