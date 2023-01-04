@@ -1,10 +1,12 @@
-import Image from "next/image";
-import DD from "../images/DraftDigitalLogo.png";
+import { SiWeb3Dotjs } from 'react-icons/si';
+import { BsShieldFillCheck } from 'react-icons/bs';
+import { TiPencil } from 'react-icons/ti';
+import { ImNewspaper } from 'react-icons/im';
 
 const ServiceCard = ({ color, title, icon, subtitle }) => (
   <div className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl hover:bg-[#383f51]">
     <div
-      className={`w-10 h-10 rounded-full flex justify-center items-center ${color}`}
+      className={`w-12 h-12 rounded-full flex justify-center items-center ${color}`}
     >
       {icon}
     </div>
@@ -28,9 +30,9 @@ export default function Services() {
 
        <div className="flex-1 flex flex-row justify-start items-center w-[85rem]">
          <ServiceCard
-           color=""
+           color='bg-[#8945f8]'
            title="Web3 Projects"
-           icon={<Image src={DD} alt="" />}
+           icon={<SiWeb3Dotjs  fontSize={22} className="text-white"/>}
            subtitle={
              <a>
                We help you identify opportunities to improve user experience,
@@ -44,19 +46,18 @@ export default function Services() {
            }
          />
          <ServiceCard
-           color=""
-           title="Audits"
-           icon={<Image src={DD} alt="" />}
+           color='bg-[#65b800]'
+           title="Smart Contract Audits"
+           icon={<BsShieldFillCheck  fontSize={22} className="text-white"/>}
            subtitle={
              <a>
-               We design decentralized systems that weave distributed
-               technologies, economics and governance structures into beautiful
-               interfaces. <br /> 
-               Decentralized technologies require a multidisciplinary
-               approach, which requires taking into account technological,
-               economic and social aspects of the system. We are experts in
-               weaving all these aspects together and help you design the entire
-               product stack, from low-level protocols to user-facing interfaces.
+                We help you identify opportunities to improve user experience,
+               supplier relationships or increase performance with the latest
+               cryptographic and economic innovations. <br />
+               New technological and economic infrastructures are constantly
+               being built and are accompanied by new trade-offs. Our research
+               team helps you identify the opportunities and risks inherent in
+               these new technologies as they relate to your specific project.
              </a>
            }
          />
@@ -65,9 +66,9 @@ export default function Services() {
 
        <div className="flex-1 flex flex-row justify-start items-center w-[85rem]">
          <ServiceCard
-           color=""
-           title="Academy"
-           icon={<Image src={DD} alt="" />}
+           color='bg-[#25bdf8]'
+           title="Draft Digital University"
+           icon={<TiPencil  fontSize={22} className="text-white"/>}
            subtitle={
              <a>
                We help you identify opportunities to improve user experience,
@@ -81,19 +82,18 @@ export default function Services() {
            }
          />
          <ServiceCard
-           color=""
-           title="Let´s talk"
-           icon={<Image src={DD} alt="" />}
+           color='bg-[#f54952]'
+           title="News and Ecosystem Information"
+           icon={<ImNewspaper  fontSize={22} className="text-white"/>}
            subtitle={
              <a>
-               We design decentralized systems that weave distributed
-               technologies, economics and governance structures into beautiful
-               interfaces. <br /> 
-               Decentralized technologies require a multidisciplinary
-               approach, which requires taking into account technological,
-               economic and social aspects of the system. We are experts in
-               weaving all these aspects together and help you design the entire
-               product stack, from low-level protocols to user-facing interfaces.
+                We help you identify opportunities to improve user experience,
+               supplier relationships or increase performance with the latest
+               cryptographic and economic innovations. <br />
+               New technological and economic infrastructures are constantly
+               being built and are accompanied by new trade-offs. Our research
+               team helps you identify the opportunities and risks inherent in
+               these new technologies as they relate to your specific project.
              </a>
            }
          />
