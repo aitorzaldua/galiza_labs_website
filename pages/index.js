@@ -2,6 +2,7 @@ import Head from "next/head";
 import Navbar from "./Navbar";
 import Welcome from "./Welcome";
 import Services from "./Services";
+import Contact from "./Contact";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
           <Welcome />
         </div>
         <Services />
+        <Contact />
       </div>
     </div>
   );

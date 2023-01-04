@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Chess from "../images/chessImage.png";
+import Chess from "../images/testImage.png";
 
 const companyCommonStyles =
   "min-h-[70px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-gray-400 text-sm font-light text-white";
@@ -35,7 +35,7 @@ export default function Welcome() {
 
         {/* Rigth side */}
         <div className="md:flex-[0.5] flex-initial justify-center items-center">
-          <Image src={Chess} alt="Chess" className="w-600 cursor-pointer" />
+          <Image src={Chess} alt="Chess" className="w-800 cursor-pointer" />
         </div>
         {/* End of the Rigth side */}
       </div>
