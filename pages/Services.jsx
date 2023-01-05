@@ -67,7 +67,7 @@ export default function Services() {
        <div className="flex-1 flex flex-row justify-start items-center w-[85rem]">
          <ServiceCard
            color='bg-[#25bdf8]'
-           title="Draft Digital University"
+           title="Blockchain University"
            icon={<TiPencil  fontSize={22} className="text-white"/>}
            subtitle={
              <a>
