@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="flex flex-col w-full justify-center items-center gradient-bg-services">
+    <div className="flex flex-col w-full justify-center items-center gradient-bg-contact">
       {/* Tittle */}
       <div className="flex mf:flex-row flex-col items-center justify-between py-12 px-4 md:p-20 sm:p-10">
         <div className="flex-1 flex flex-col justify-start items-start">
