@@ -4,7 +4,7 @@ import {BsLinkedin} from 'react-icons/bs';
 
 
 const ServiceCard = ({ color, title, icon, subtitle }) => (
-  <div className="flex flex-col  justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl hover:bg-[#383f51]">
+  <div className="flex flex-col  w-80 justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl hover:bg-[#383f51]">
     <div className={`w-12 h-12 rounded-full flex justify-center items-center ${color}`}>{icon}</div>
     <h1 className="mt-2 text-white text-lg">{title}</h1>
     <p className="mt-2 text-white text-sm md:w-9/12">{subtitle}</p>
@@ -24,7 +24,7 @@ export default function Contact() {
       </div>
 
       {/* Contact Area */}
-      <div className="flex-1 flex flex-col justify-start items-center w-[240rem]">
+      <div>
         <ServiceCard
           color="bg-[#8945f8]"
           title="Email"
