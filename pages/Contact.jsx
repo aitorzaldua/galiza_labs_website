@@ -24,6 +24,27 @@ export default function Contact() {
       </div>
 
       {/* Contact Area */}
+      <div className="flex-1 flex flex-col justify-start items-center w-[240rem]">
+        <ServiceCard
+          color="bg-[#8945f8]"
+          title="Email"
+          icon={<MdOutlineEmail fontSize={22} className="text-white" />}
+          subtitle={<a>info@draftdigital.org</a>}
+        />
+        <ServiceCard
+          color="bg-[#8945f8]"
+          title="Email"
+          icon={<MdOutlineEmail fontSize={22} className="text-white" />}
+          subtitle={<a>info@draftdigital.org</a>}
+        />
+        <ServiceCard
+          color="bg-[#8945f8]"
+          title="Email"
+          icon={<MdOutlineEmail fontSize={22} className="text-white" />}
+          subtitle={<a>info@draftdigital.org</a>}
+        />
+
+        </div>
 
       {/* Image */}
     </div>
