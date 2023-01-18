@@ -1,3 +1,7 @@
+import {MdOutlineEmail} from 'react-icons/md';
+import {BsWhatsapp} from 'react-icons/bs';
+import {BsLinkedin} from 'react-icons/bs';
+
 
 const ServiceCard = ({ color, title, icon, subtitle }) => (
   <div className="flex flex-col  justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl hover:bg-[#383f51]">
