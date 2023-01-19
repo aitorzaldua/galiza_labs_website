@@ -43,7 +43,6 @@ export default function Contact() {
           icon={<MdOutlineEmail fontSize={22} className="text-white" />}
           subtitle={<a>info@draftdigital.org</a>}
         />
-
         </div>
 
       {/* Image */}
