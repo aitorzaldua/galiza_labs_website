@@ -11,15 +11,16 @@ export default function Welcome() {
         {/* Left side */}
         <div className="flex flex-1 justify-start flex-col md:mr-10">
           <h1 className="text-3xl sm:text-5xl text-white text-gradient py-1">
-            We design and build core infrastructure <br /> for the decentralized
-            web.
+            World Class Smart Contract Auditing <br />
+            and Security Audit Education
           </h1>
           <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
-          We take your vision to production.
-          At Draft Digital we have a full suite of expert services to take your decentralized system from idea to production.
-          <br />
-          Our mission includes protecting and ensuring network security. 
-          We conduct smart contract, off-chain, network and front-end audits in order to improve the security of your decentralized application.
+            Draft Digital is a Web3 security company dedicated to bringing
+            industry-leading protection and education to our partners and their
+            projects. 
+            <br />
+            Our goal is to create a safe, reliable, and transparent
+            environment for everyone in Web3 and DeFi.
           </p>
 
           <div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-10">
