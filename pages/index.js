@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Welcome from "./Welcome";
 import Services from "./Services";
 import Contact from "./Contact";
+import AuditProcess from "./AuditProcess";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
           <Welcome />
         </div>
         <Services />
+        <AuditProcess />
         <Contact />
       </div>
     </div>
