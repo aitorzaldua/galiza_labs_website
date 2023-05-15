@@ -14,7 +14,7 @@ export default function Home() {
           name="description"
           content="Draft Digital is a supercool Blockchain company"
         />
-        <link rel="icon" href="/DraftDigitalLogo.png" />
+        <link rel="icon" href="/Logo0523.png" />
       </Head>
       <div className="min-h-screen">
         <div className="gradient-bg-welcome">

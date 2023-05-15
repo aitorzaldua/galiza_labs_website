@@ -2,7 +2,7 @@
 //import { HiMenuAlt4 } from "react-icons/hi";
 import Image from "next/image";
 
-import logo from "../images/turtle-removebg-preview.png";
+import logo from "../images/Logo052302.png";
 
 /* const NavbarItem = ({ title, classProps }) => {
   return <li className="mx-4 cursor-pointer ${classProps}">{title}</li>;
@@ -10,10 +10,10 @@ import logo from "../images/turtle-removebg-preview.png";
 
 export default function Navbar() {
   return (
-    <nav className="w-full flex md:justify-center justify-between items-center p-4">
+    <nav className="w-full flex md:justify-center justify-between items-center py-4 pr-8">
       <div className="md:flex-[0.5] flex flex-row flex-initial justify-center items-center">
-        <Image src={logo} alt="logo" className="w-32 cursor-pointer" />
-        <p className=" text-white text-gradient py-1">DRAFT DIGITAL</p>
+        <Image src={logo} alt="logo" className="w-12 cursor-pointer" />
+        <p className=" text-white draftDigital-gradient pl-3 py-1">DRAFT DIGITAL</p>
       </div>
       {/* Nota: en el ul hemos quitado el hidden */}
       <ul className="text-white md:flex list-none flex-row justify-between items-center flex-initial">
