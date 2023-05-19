@@ -4,7 +4,7 @@ import { TiPencil } from "react-icons/ti";
 import { ImNewspaper } from "react-icons/im";
 
 const ServiceCard = ({ color, title, icon, subtitle }) => (
-  <div className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl hover:bg-[#383f51]">
+  <div className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl hover:bg-[#383f51]" id="AuditProcess">
     <div
       className={`w-12 h-12 rounded-full flex justify-center items-center ${color}`}
     >
@@ -69,7 +69,7 @@ export default function AuditProcess() {
           icon={<TiPencil fontSize={22} className="text-white" />}
           subtitle={
             <a>
-              Cyfrin wants everyone to feel empowered with the resources needed
+              Draft Digital wants everyone to feel empowered with the resources needed
               to flourish in the DeFi/Web3 world. We believe that knowledge
               should be open, available, and free.
             </a>

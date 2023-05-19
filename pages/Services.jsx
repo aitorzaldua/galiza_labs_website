@@ -2,6 +2,8 @@ import { SiWeb3Dotjs } from "react-icons/si";
 import { BsShieldFillCheck } from "react-icons/bs";
 import { TiPencil } from "react-icons/ti";
 import { ImNewspaper } from "react-icons/im";
+import Image from "next/image";
+import astronaut002 from "../images/astronaut002.png";
 
 const ServiceCard = ({ color, title, icon, subtitle }) => (
   <div className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl hover:bg-[#383f51]">
@@ -19,7 +21,7 @@ const ServiceCard = ({ color, title, icon, subtitle }) => (
 
 export default function Services() {
   return (
-    <div className="flex flex-col w-full justify-center items-center gradient-bg-services">
+    <div className="flex flex-col w-full justify-center items-center gradient-bg-services" id="Services">
       <div className="flex mf:flex-row flex-col items-center justify-between py-12 px-4 md:p-20 sm:p-10">
         <div className="flex-1 flex flex-col justify-start items-start">
           <h1 className="text-white text-3xl sm:text-5xl py-2">What we do</h1>
@@ -28,9 +30,9 @@ export default function Services() {
 
       <div className="flex-1 flex flex-row justify-start items-center w-[85rem]">
         <ServiceCard
-          color="bg-[#8945f8]"
+          color=""
           title="Code Reviews"
-          icon={<SiWeb3Dotjs fontSize={22} className="text-white" />}
+          icon={<Image src={astronaut002} alt="astroPlanets" className="w-800 cursor-pointer" />}
           subtitle={
             <a>
               A code review is a great way to confirm you're building in the
@@ -43,7 +45,7 @@ export default function Services() {
         <ServiceCard
           color="bg-[#65b800]"
           title="Smart Contract Audits"
-          icon={<BsShieldFillCheck fontSize={22} className="text-white" />}
+          icon={<Image src={astronaut002} alt="astroPlanets" className="w-800 cursor-pointer" />}
           subtitle={
             <a>
               Our auditors work with your developers to understand your project.
@@ -61,7 +63,7 @@ export default function Services() {
           icon={<TiPencil fontSize={22} className="text-white" />}
           subtitle={
             <a>
-              Cyfrin wants everyone to feel empowered with the resources needed
+              Draft Digital wants everyone to feel empowered with the resources needed
               to flourish in the DeFi/Web3 world. We believe that knowledge
               should be open, available, and free.
             </a>
