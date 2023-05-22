@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-import astroPlanets from "../images/astronautLaptopPlanets.png";
+import WelcomeImg from "../images/Welcome001.png";
 
 const companyCommonStyles =
   "min-h-[70px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-gray-400 text-sm font-light text-white";
@@ -37,7 +37,7 @@ export default function Welcome() {
 
         {/* Rigth side */}
         <div className="md:flex-[0.5] flex-initial justify-center items-center">
-          <Image src={astroPlanets} alt="astroPlanets" className="w-800 cursor-pointer" />
+          <Image src={WelcomeImg} alt="WelcomeImg" className="w-800 cursor-pointer" />
         </div>
         {/* End of the Rigth side */}
       </div>

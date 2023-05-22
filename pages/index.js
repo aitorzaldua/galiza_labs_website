@@ -4,6 +4,7 @@ import Welcome from "./Welcome";
 import Services from "./Services";
 import Contact from "./Contact";
 import AuditProcess from "./AuditProcess";
+import Audits from "./Audits";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         </div>
         <Services />
         <AuditProcess />
+        <Audits />
         <Contact />
       </div>
     </div>

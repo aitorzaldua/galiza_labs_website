@@ -10,15 +10,15 @@ import logo from "../images/Logo052302.png";
 
 export default function Navbar() {
   return (
-    <nav className="w-full flex md:justify-center justify-between items-center py-4 p">
-      <div className="md:flex-[0.5] flex flex-row flex-initial justify-center items-center">
+    <nav className="w-full flex md:justify-center justify-between items-center py-4 pr-24">
+      <div className="md:flex-[0.5] flex flex-row flex-initial justify-center items-center pr-24">
         <Image src={logo} alt="logo" className="w-12 cursor-pointer" />
         <p className=" text-white draftDigital-gradient pl-3 py-1">
           DRAFT DIGITAL
         </p>
       </div>
       {/* Nota: en el ul hemos quitado el hidden */}
-      <ul className="text-white md:flex list-none flex-row justify-between items-center flex-initial">
+      <ul className="text-white md:flex list-none flex-row justify-between items-center flex-initial px-24">
         <Link
           activeClass="active"
           to="/"
@@ -50,10 +50,18 @@ export default function Navbar() {
           duration={500}
           className="mx-4 cursor-pointer"
         >
-          The Audit Process
+          The Process
         </Link>
-        <Link href="/University" className="mx-4 cursor-pointer">
-          University
+        <Link
+          activeClass="active"
+          to="Audits"
+          spy={true}
+          smooth={true}
+          offset={-200}
+          duration={500}
+          className="mx-4 cursor-pointer"
+        >
+          Check Audits
         </Link>
         <Link
           activeClass="active"
