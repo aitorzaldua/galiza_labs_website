@@ -79,6 +79,40 @@ body {
     radial-gradient(at 50% 0%, hsla(225, 39%, 25%, 1) 0, transparent 50%);
 }
 
+/* FRAMES */
+
+.frame-Superior {
+  align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex: 1 0 0px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 64px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 1px;
+}
+
+
+
+.framer-Services {
+  display: grid;
+    flex: none;
+    gap: 16px;
+    grid-auto-rows: minmax(0,1fr);
+    grid-template-columns: repeat(3,minmax(200px,1fr));
+    grid-template-rows: repeat(1,minmax(0,1fr));
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
 
 
 @tailwind base;
