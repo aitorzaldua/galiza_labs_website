@@ -76,11 +76,11 @@ export default function AuditProcess() {
         {data.map(({ id, image, title, note}) => {
           return (
             <SwiperSlide className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl hover:bg-[#383f51]">
-              <h5 className="text-white">{title}</h5>
-              <div className="w-400 h-400 cursor-pointer">
-                <Image src={image} alt=""></Image>
+              <h5 className="text-white flex justify-center items-center">{title}</h5>
+              <div className="flex flex-row justify-center items-center">
+                <Image src={image} alt="" className="flex justify-center items-center max-w-[40%]"></Image>
+                <p className="flex justify-center items-center text-white">{note}</p>
               </div>
-              <small className="text-white">{note}</small>
             </SwiperSlide>
           );
         })}

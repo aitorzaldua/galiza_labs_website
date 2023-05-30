@@ -10,7 +10,7 @@ import logo from "../images/Logo052302.png";
 
 export default function Navbar() {
   return (
-    <nav className="w-full flex md:justify-center justify-between items-center py-4 pr-[6.5rem]">
+    <nav className="w-full flex md:justify-center justify-between items-center py-4 pr-[6.5rem]" id="Nav">
       <div className="md:flex-[0.5] flex flex-row flex-initial justify-center items-center pr-24 mr-16">
         <Image src={logo} alt="logo" className="w-12 cursor-pointer" />
         <p className=" text-white draftDigital-gradient pl-3 py-1 mr-[7rem]">
@@ -18,7 +18,6 @@ export default function Navbar() {
         </p>
       </div>
       {/* Nota: en el ul hemos quitado el hidden */}
-      
       <ul className="text-white md:flex list-none flex-row justify-between items-center flex-initial">
         <Link
           activeClass="active"
