@@ -174,12 +174,12 @@ body {
 }
 
 .footer__socials a {
-   background: var(--color-bg);
-   color: var(--color-white);
-   padding: 0.8rem;
-   border-radius: 0.7rem;
-   display: flex;
-   border: 1px solid transparent;
+  background: var(--color-bg);
+  color: var(--color-white);
+  padding: 0.8rem;
+  border-radius: 0.7rem;
+  display: flex;
+  border: 1px solid transparent;
 }
 
 .footer__socials a:hover {
@@ -193,16 +193,24 @@ body {
   color: var(--color-bg);
 }
 
+.contact__container {
+  flex: 0 0 auto;
+  height: auto;
+  position: relative;
+  width: 400px;
+}
+
 /* Media-queries
 
-/* Mobile phones or similar */ 
+/* Mobile phones or similar */
 @media screen and (max-width: 600px) {
   .permalinks {
-      flex-direction: column;
-      gap: 1.5rem;
+    flex-direction: column;
+    gap: 1.5rem;
   }
+
   .footer__socials {
-      margin-bottom: 2.6rem;
+    margin-bottom: 2.6rem;
   }
 }
 

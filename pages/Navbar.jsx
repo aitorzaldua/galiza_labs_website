@@ -70,7 +70,7 @@ export default function Navbar() {
           smooth={true}
           offset={0}
           duration={500}
-          className="bg-[#005d62] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]"
+          className="bg-[#005d62] py-2 px-7 mx-4  rounded-md cursor-pointer hover:bg-[#2546bd]"
         >
           Request an audit
         </Link>
