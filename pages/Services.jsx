@@ -7,7 +7,7 @@ import astronaut002 from "../images/astronaut002.png";
 import reporter001 from "../images/reporter001.png";
 
 const ServiceCard = ({ color, title, icon, subtitle }) => (
-  <div className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl hover:bg-[#383f51]">
+  <div className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl hover:bg-[#0d1f31]">
     <div
       className={`w-56 rounded-full flex justify-center items-center ${color}`}
     >
@@ -21,7 +21,7 @@ const ServiceCard = ({ color, title, icon, subtitle }) => (
 );
 
 const ServiceCard2 = ({ color, title, subtitle }) => (
-  <div className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl hover:bg-[#383f51]">
+  <div className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl hover:bg-[#0d1f31]">
     <div className="ml-5 flex flex-col flex-1">
       <h1 className="mt-2 text-white text-lg">{title}</h1>
       <p className="mt-2 text-white text-sm md:w-9/12">{subtitle}</p>
@@ -30,7 +30,7 @@ const ServiceCard2 = ({ color, title, subtitle }) => (
 );
 
 const ServiceCard3 = ({ color, title, icon, subtitle }) => (
-  <div className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl hover:bg-[#383f51]">
+  <div className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl hover:bg-[#0d1f31]">
     <div className="ml-5 flex flex-col flex-1">
       <h1 className="mt-2 text-white text-lg">{title}</h1>
       <p className="mt-2 text-white text-sm md:w-9/12">{subtitle}</p>
@@ -43,26 +43,28 @@ const ServiceCard3 = ({ color, title, icon, subtitle }) => (
   </div>
 );
 
-
-
 export default function Services() {
   return (
-    <div className="flex flex-col w-full justify-center items-center gradient-bg-services global-Padding" id="Services">
-      <div className="framer-Services">
-          <h1 className="flex flex-row items-center gap-2.5  text-white text-8xl justify-center min-h-0 min-w-0 pb-10">What we do</h1>
-          <p className="text-xl text-white pt-6">
-            Draft Digital is a Web3 security company dedicated to bringing
-            industry-leading protection and education to our partners and their
-            projects. Our goal is to create a safe, reliable, and transparent
-            environment for everyone in Web3 and DeFi.
-          </p>
-
+    <div
+      className="flex w-full flex-col justify-center items-center gradient-bg-services 2xl:px-40"
+      id="Services"
+    >
+      <div className="flex md:flex-row flex-col  2xl:py-12 py-6">
+        <h1 className=" text-6xl  text-white text-gradient pt-8 px-16">
+          What we do
+        </h1>
+        <p className="flex items-center justify-center text-white pt-6 w-[26rem]">
+          Draft Digital is a Web3 security company dedicated to providing high
+          standards of protection and security for our partners and their
+          projects. Our mission is to create a secure, reliable and transparent
+          environment for everyone on Web3 and DeFi.
+        </p>
       </div>
 
       <div className="flex-1 flex flex-row justify-start items-center w-[85rem]">
         <ServiceCard
           color=""
-          title="Code Reviews"
+          title="Smart Contract Audits"
           icon={
             <Image
               src={astronaut002}
@@ -72,21 +74,22 @@ export default function Services() {
           }
           subtitle={
             <a>
-              A code review is a great way to confirm you're building in the
-              right direction, with the right tech stack, and making use of
-              cost-savings. It supplies you with the understanding needed to
-              prepare for a full security audit.
+              A professional service that will allow you to increase the
+              security of your smart contracts and minimise the risk of being
+              hacked. Our professionals go line by line to secure your code and
+              create clear and concise reports that build trust with our
+              partners.
             </a>
           }
         />
         <ServiceCard2
           color=""
-          title="Smart Contract Audits"
+          title="Code analysis & Consulting"
           subtitle={
             <a>
-              Our auditors work with your developers to understand your project.
-              We go line by line to secure your code, so you feel confident to
-              push your code into the wild.
+              Our consultants work closely with the developers during the
+              project, creating a climate of trust in the code and ensuring the
+              highest standards when placing the code in production.
             </a>
           }
         />
@@ -95,12 +98,12 @@ export default function Services() {
       <div className="flex-1 flex flex-row justify-start items-center w-[85rem]">
         <ServiceCard2
           color="bg-[#25bdf8]"
-          title="Web3 Security University"
+          title="Web3 Security Education"
           subtitle={
             <a>
-              Draft Digital wants everyone to feel empowered with the resources
-              needed to flourish in the DeFi/Web3 world. We believe that
-              knowledge should be open, available, and free.
+              At Draft Digital we believe that the best prevention is knowledge.
+              We provide courses and bootcamps for developers so that their code
+              is guaranteed safe from the first line.
             </a>
           }
         />
@@ -116,13 +119,11 @@ export default function Services() {
           }
           subtitle={
             <a>
-              We help you identify opportunities to improve user experience,
-              supplier relationships or increase performance with the latest
-              cryptographic and economic innovations. <br />
-              New technological and economic infrastructures are constantly
-              being built and are accompanied by new trade-offs. Our research
-              team helps you identify the opportunities and risks inherent in
-              these new technologies as they relate to your specific project.
+              In addition to our education services, research plays an essential
+              role in web3 and is central to its security. New exploits emerge
+              every day and we need to be aware of them immediately. Our news
+              and information service is kept up to date to prevent any new
+              attacks.
             </a>
           }
         />

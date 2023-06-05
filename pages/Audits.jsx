@@ -30,7 +30,7 @@ const ServiceCard = ({ title, icon1, icon2, icon3 }) => (
 
 export default function AuditProcess() {
   return (
-    <div className="flex flex-col w-full justify-center items-center gradient-bg-services">
+    <div className="flex flex-col w-full justify-center items-center gradient-bg-audits">
       <div className="flex mf:flex-row flex-col items-center justify-between py-12 px-4 md:p-20 sm:p-10">
         <div className="flex-1 flex flex-col justify-start items-start">
           <h1 className="text-white text-3xl sm:text-5xl py-2">
@@ -40,9 +40,8 @@ export default function AuditProcess() {
       </div>
 
       <p className="text-white py-2">
-        Security is a journey. We help mitigate security risks, teach your
-        developers best practices and provide ongoing support to ensure a safer
-        Web3.
+        Web security3 is a journey of continuous discovery. It is essential to
+        keep up to date with the latest exploits and discoveries.
       </p>
       <div className="flex-1 flex flex-row justify-start items-center max-w-full">
         <ServiceCard
@@ -69,34 +68,33 @@ export default function AuditProcess() {
             />
           }
         />
-        </div>
-        <div className="flex-1 flex flex-row justify-start items-center max-w-full">
-          <ServiceCard
-            title="Tech Articles"
-            icon1={
-              <Image
-                src={code4rena}
-                alt="astroPlanets"
-                className="w-800 cursor-pointer"
-              />
-            }
-            icon2={
-              <Image
-                src={hats}
-                alt="astroPlanets"
-                className="w-800 cursor-pointer"
-              />
-            }
-            icon3={
-              <Image
-                src={sherlock}
-                alt="astroPlanets"
-                className="w-800 cursor-pointer"
-              />
-            }
-          />
-        </div>
-      
+      </div>
+      <div className="flex-1 flex flex-row justify-start items-center max-w-full">
+        <ServiceCard
+          title="Tech Articles"
+          icon1={
+            <Image
+              src={code4rena}
+              alt="astroPlanets"
+              className="w-800 cursor-pointer"
+            />
+          }
+          icon2={
+            <Image
+              src={hats}
+              alt="astroPlanets"
+              className="w-800 cursor-pointer"
+            />
+          }
+          icon3={
+            <Image
+              src={sherlock}
+              alt="astroPlanets"
+              className="w-800 cursor-pointer"
+            />
+          }
+        />
+      </div>
 
       <div className="flex-1 flex flex-row justify-start items-center max-w-full">
         <ServiceCard

@@ -126,7 +126,7 @@ export default function Contact() {
         </div>
       </div>
       <div className="flex flex-row text-white">
-        <small>&copy; Designed with 🤍 by MG</small>
+        <small>Draft Digital founded in 2021. &copy; UI Designed with 🤍 by MG. Make the web3 a better place.</small>
       </div>
     </div>
   );

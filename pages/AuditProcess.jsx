@@ -7,7 +7,7 @@ import { Pagination, Navigation, Scrollbar, A11y } from "swiper";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/pagination"; 
+import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 export default function AuditProcess() {
@@ -15,55 +15,57 @@ export default function AuditProcess() {
     {
       id: 1,
       image: logo,
-      title: "Price & timeline",
-      note: "Our Engineers will estimate the timeline and price based on codebase complexity and size. We want you to know that we strive to match this with your expectations.",
+      title: "First Review and Estimations",
+      note: "After reviewing the information, we made estimates of expected costs and completion time. Each client is treated on a personalised basis according to their interests and resources.",
     },
     {
       id: 2,
       image: logo,
-      title: "Lock commit hash, start date & downpayment",
-      note: "We agree on a start date and a commit hash to base our audit. To get the most out of an audit, it is recommended that this commit hash not change during the audit.",
+      title: "Agreement & Start of Service",
+      note: "After reaching a service agreement, we start the audit by adjusting the work to the agreed timescales and taking into account the committed partial deliverables.tiemp",
     },
     {
       id: 3,
       image: logo,
-      title: "Audit begins",
-      note: "Our Engineers will spend the allotted time on your contracts. We strongly recommend keeping an open communication channel between your engineers and us during this process.",
+      title: "Audit Time",
+      note: "Our auditors are dedicated full-time to a single client during their audit time, which guarantees 100% audit attention. They maintain open channels of communication with the client's contacts at all times.",
     },
     {
       id: 4,
       image: logo,
       title: "Initial report",
-      note: "The initial report will explain each issue categorised as High, Medium, Low or Informational. A call will be set up for your engineers to ask questions about the findings.",
+      note: "The so-called initial report is the one that already contains the 100% code review. It will be delivered for review by the client and, subsequently, a meeting will be held between the engineers involved to review and explain each vulnerability or possible improvement detected."
     },
-    {
+      {
       id: 5,
       image: logo,
       title: "Mitigation",
-      note: "Your Engineers will have a chance to mitigate the findings using the recommendations in the report.",
+      note: "The client's developers and engineers proceed to test and implement the results of the initial report, always with open channels of communication with the auditors. ",
     },
     {
       id: 6,
       image: logo,
       title: "Final Report",
-      note: "Once the mitigations have been applied, our engineers will check them and amend the issues on the report as Acknowledged or Resolved with any necessary extra information.",
+      note: "Once all checks have been performed and the agreed fixes have been applied, our auditors will review the code again and update the report, indicating the vulnerabilities already fixed and making the final assessments.",
     },
   ];
   return (
     <div
-      className="flex flex-col w-full justify-center items-center gradient-bg-services global-Padding"
+      className="flex flex-col w-full justify-center items-center gradient-bg-auditProcess pt-12 pb-16 2xl:px-[4rem]"
       id="AuditProcess"
     >
-      <h1 className="text-6xl  text-white text-gradient pt-4 px-16">
+      <h1 className="text-6xl  text-white text-gradient pb-4 pt-6 px-16">
         The Auditing Process
       </h1>
       <p className="text-xl text-white py-12">
-        Security is a journey. We help mitigate security risks, teach your
+        {/* Security is a journey. We help mitigate security risks, teach your
         developers best practices and provide ongoing support to ensure a safer
-        Web3.
+        Web3.  */}
+        An audit is a meticulous and detailed process. We guarantee the
+        success of the service by providing a detailed roadmap.
       </p>
       <Swiper
-        className="container blog__container"
+        className="container w-[75%]"
         modules={[Pagination, Navigation, Scrollbar, A11y]}
         spaceBetween={40}
         slidesPerView={3}
@@ -73,13 +75,16 @@ export default function AuditProcess() {
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
       >
-        {data.map(({ id, image, title, note}) => {
+        {data.map(({ id, image, title, note }) => {
           return (
-            <SwiperSlide className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl hover:bg-[#383f51]">
-              <h5 className="text-white flex justify-center items-center">{title}</h5>
+            <SwiperSlide className="flex flex-row  justify-start items-center py-3 px-[2rem] 2xl:px-[4rem] m-2 cursor-pointer hover:text-xl">
+              <h5 className="text-[#76bc79] flex justify-center items-center pb-5">
+                {title}
+              </h5>
               <div className="flex flex-row justify-center items-center">
-                <Image src={image} alt="" className="flex justify-center items-center max-w-[40%]"></Image>
-                <p className="flex justify-center items-center text-white">{note}</p>
+                <p className="flex justify-center items-center text-white">
+                  {note}
+                </p>
               </div>
             </SwiperSlide>
           );
