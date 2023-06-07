@@ -5,16 +5,16 @@ import { AiFillHeart } from "react-icons/ai";
 import { Link } from "react-scroll/modules";
 //import emailjs from '@emailjs/browser';
 import Image from "next/image";
-import logo from "../images/Logo052302.png";
+import logo from "../images/DDLogo1.png";
 
 export default function Contact() {
   return (
     <div className="flex flex-col justify-center items-center gradient-bg-contact min-w-full pt-36" id="Contact">
       <div className="md:flex-[0.5] flex flex-row justify-center items-center">
-        <Image src={logo} alt="logo" className="w-12 cursor-pointer" />
-        <p className=" text-white draftDigital-gradient pl-3 py-1 mr-[7rem]">
+        <Image src={logo} alt="logo" className="w-36 cursor-pointer" />
+        {/* <p className=" text-white draftDigital-gradient pl-3 py-1 mr-[7rem]">
           DRAFT DIGITAL
-        </p>
+        </p> */}
       </div>
       <div className="flex flex-row w-full justify-center items-center">
         <div className="flex mf:flex-col flex-col justify-start py-12 px-4 md:p-20 sm:p-10">

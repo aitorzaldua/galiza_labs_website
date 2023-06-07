@@ -2,7 +2,7 @@
 //import { HiMenuAlt4 } from "react-icons/hi";
 import Image from "next/image";
 import { Link } from "react-scroll/modules";
-import logo from "../images/EthLogo.png";
+import logo from "../images/DDLogo2.png";
 
 /* const NavbarItem = ({ title, classProps }) => {
   return <li className="mx-4 cursor-pointer ${classProps}">{title}</li>;
@@ -10,12 +10,12 @@ import logo from "../images/EthLogo.png";
 
 export default function Navbar() {
   return (
-    <nav className="w-full flex md:justify-center justify-between items-center pt-8" id="Nav">
+    <nav className="w-full flex md:justify-center justify-between items-center pt-6" id="Nav">
       <div className="md:flex-[0.5] flex flex-row flex-initial justify-start items-center ">
-        <Image src={logo} alt="logo" className="w-[4.5rem]" />
-        <p className=" text-[#2a68a2] py-1 mr-[7rem]">
+        <Image src={logo} alt="logo" className="w-[10rem]" />
+        {/* <p className=" text-[#2a68a2] py-1 mr-[7rem]">
           draft digital
-        </p>
+        </p> */}
       </div>
       {/* Nota: en el ul hemos quitado el hidden */}
       <ul className="text-white md:flex list-none flex-row justify-between items-center flex-initial">

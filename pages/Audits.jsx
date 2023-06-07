@@ -9,7 +9,7 @@ import code4rena from "../images/auditsArticlesNews/code4rena.png";
 
 const ServiceCard = ({ title, icon1, icon2, icon3 }) => (
   <div
-    className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 gap-16 hover:shadow-xl hover:bg-[#383f51]"
+    className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 gap-16 hover:shadow-xl hover:bg-[#0d1f31]"
     id="Audits"
   >
     <h1 className="mt-2 text-white text-lg">{title}</h1>
@@ -43,7 +43,7 @@ export default function AuditProcess() {
         Web security3 is a journey of continuous discovery. It is essential to
         keep up to date with the latest exploits and discoveries.
       </p>
-      <div className="flex-1 flex flex-row justify-start items-center max-w-full">
+      <div className="flex-1 flex flex-row justify-start items-center rounded-md max-w-full">
         <ServiceCard
           title="Code Audits"
           icon1={
