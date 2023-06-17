@@ -1,5 +1,5 @@
 import Image from "next/image";
-import WelcomeImg from "../images/Welcome001.png";
+import WelcomeImg from "../images/welcome/compas16.png";
 
 
 export default function Welcome() {
@@ -8,11 +8,11 @@ export default function Welcome() {
       <div className="flex md:flex-row flex-col items-start justify-between  py-24 md:p-20 ">
         {/* Left side */}
         <div className="flex flex-1 justify-start flex-col md:mr-10">
-          <h1 className="text-6xl  text-white text-gradient pt-24 px-16">
+          <h1 className="text-6xl text-gradient pt-24 px-16">
             Smart contract security services for EVM Blockchains
           </h1>
 
-          <p className="text-md text-white pt-12 px-16">
+          <p className="text-md text-[#dce0e5] pt-12 px-16">
             We provide smart contract security analysis services, studying
             potential breaches and overseeing the implementation of secure smart
             contract protocols.
@@ -21,11 +21,11 @@ export default function Welcome() {
         {/* End of the Left side */}
 
         {/* Rigth side */}
-        <div className="md:flex-[0.5] flex-initial justify-center items-center">
+        <div className="md:flex-[0.5] flex-initial justify-center items-center pt-2">
           <Image
             src={WelcomeImg}
             alt="WelcomeImg"
-            className="w-800"
+            className="imgWelcome"
           />
         </div>
         {/* End of the Rigth side */}

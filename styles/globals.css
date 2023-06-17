@@ -23,6 +23,12 @@ body {
 
 /* Logo */
 
+.imgWelcome {
+  max-width: 80% !important;
+  padding-left: 3rem;
+
+}
+
 .draftDigital-gradient {
   background-color: #fff;
   background-image:
@@ -36,8 +42,8 @@ body {
 .gradient-bg-welcome {
   background-color: hsla(205, 39%, 12%, 1);
   background-image:
-    radial-gradient(at 0% 44%, hsla(209, 56%, 12%, 1) 0px, transparent 50%),
-    radial-gradient(at 81% 56%, hsla(209, 56%, 36%, 1) 0px, transparent 50%);
+    radial-gradient(at 0% 44%, hsla(209, 56%, 22%, 1) 0px, transparent 50%),
+    radial-gradient(at 81% 46%, hsla(209, 56%, 2%, 1) 0px, transparent 50%);
   /* radial-gradient(at 56% 49%, hsla(205, 39%, 24%,1) 0px, transparent 50%),
     radial-gradient(at 91% 10%, hsla(205, 39%, 56%,1) 0px, transparent 50%); */
 
@@ -74,15 +80,16 @@ body {
 
 
 .text-gradient {
-  background-color: hsla(205, 39%, 56%, 1);
+  background-color: hsla(214, 15%, 56%, 1);
   background-image:
-    radial-gradient(at 4% 36%, hsla(209, 59%, 76%, 1) 0, transparent 53%),
-    radial-gradient(at 70% 40%, hsla(209, 59%, 85%, 1) 0, transparent 50%),
-    radial-gradient(at 100% 70%, hsla(208, 60%, 94%, 1) 0, transparent 50%);
+    radial-gradient(at 4% 36%, hsla(211, 14%, 68%, 1) 0, transparent 53%),
+    radial-gradient(at 70% 40%, hsla(210, 14%, 80%, 1) 0, transparent 50%),
+    radial-gradient(at 100% 70%, hsla(213, 15%, 88%, 1) 0, transparent 50%);
 
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 
 
 

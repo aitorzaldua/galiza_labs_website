@@ -14,8 +14,8 @@ const ServiceCard = ({ color, title, icon, subtitle }) => (
       {icon}
     </div>
     <div className="ml-5 flex flex-col flex-1">
-      <h1 className="mt-2 text-white text-lg">{title}</h1>
-      <p className="mt-2 text-white text-sm md:w-9/12">{subtitle}</p>
+      <h1 className="mt-2 text-[#a1acba] text-lg">{title}</h1>
+      <p className="mt-2 text-[#dce0e5] text-sm md:w-9/12">{subtitle}</p>
     </div>
   </div>
 );
@@ -23,8 +23,8 @@ const ServiceCard = ({ color, title, icon, subtitle }) => (
 const ServiceCard2 = ({ color, title, subtitle }) => (
   <div className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl hover:bg-[#0d1f31]">
     <div className="ml-5 flex flex-col flex-1">
-      <h1 className="mt-2 text-white text-lg">{title}</h1>
-      <p className="mt-2 text-white text-sm md:w-9/12">{subtitle}</p>
+      <h1 className="mt-2 text-[#a1acba] text-lg">{title}</h1>
+      <p className="mt-2 text-[#dce0e5] text-sm md:w-9/12">{subtitle}</p>
     </div>
   </div>
 );
@@ -32,8 +32,8 @@ const ServiceCard2 = ({ color, title, subtitle }) => (
 const ServiceCard3 = ({ color, title, icon, subtitle }) => (
   <div className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl hover:bg-[#0d1f31]">
     <div className="ml-5 flex flex-col flex-1">
-      <h1 className="mt-2 text-white text-lg">{title}</h1>
-      <p className="mt-2 text-white text-sm md:w-9/12">{subtitle}</p>
+      <h1 className="mt-2 text-[#a1acba] text-lg">{title}</h1>
+      <p className="mt-2 text-[#dce0e5] text-sm md:w-9/12">{subtitle}</p>
     </div>
     <div
       className={`w-56 rounded-full flex justify-center items-center ${color}`}
@@ -50,10 +50,10 @@ export default function Services() {
       id="Services"
     >
       <div className="flex md:flex-row flex-col  2xl:py-12 py-6">
-        <h1 className=" text-6xl  text-white text-gradient pt-8 px-16">
+        <h1 className=" text-6xl text-gradient pt-8 px-16">
           What we do
         </h1>
-        <p className="flex items-center justify-center text-white pt-6 w-[26rem]">
+        <p className="flex items-center justify-center text-[#dce0e5] pt-6 w-[26rem]">
           Draft Digital is a Web3 security company dedicated to providing high
           standards of protection and security for our partners and their
           projects. Our mission is to create a secure, reliable and transparent

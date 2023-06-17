@@ -54,13 +54,10 @@ export default function AuditProcess() {
       className="flex flex-col w-full justify-center items-center gradient-bg-auditProcess pt-12 pb-16 2xl:px-[4rem]"
       id="AuditProcess"
     >
-      <h1 className="text-6xl  text-white text-gradient pb-4 pt-6 px-16">
+      <h1 className="text-6xl text-gradient pb-4 pt-6 px-16">
         The Auditing Process
       </h1>
-      <p className="text-xl text-white py-12">
-        {/* Security is a journey. We help mitigate security risks, teach your
-        developers best practices and provide ongoing support to ensure a safer
-        Web3.  */}
+      <p className="text-xl text-[#dce0e5] py-12">
         An audit is a meticulous and detailed process. We guarantee the
         success of the service by providing a detailed roadmap.
       </p>
@@ -82,7 +79,7 @@ export default function AuditProcess() {
                 {title}
               </h5>
               <div className="flex flex-row justify-center items-center">
-                <p className="flex justify-center items-center text-white">
+                <p className="flex justify-center items-center text-[#dce0e5]">
                   {note}
                 </p>
               </div>

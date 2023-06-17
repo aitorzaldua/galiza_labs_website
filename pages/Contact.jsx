@@ -10,18 +10,12 @@ import logo from "../images/DDLogo1.png";
 export default function Contact() {
   return (
     <div className="flex flex-col justify-center items-center gradient-bg-contact min-w-full pt-36" id="Contact">
-      <div className="md:flex-[0.5] flex flex-row justify-center items-center">
-        <Image src={logo} alt="logo" className="w-36 cursor-pointer" />
-        {/* <p className=" text-white draftDigital-gradient pl-3 py-1 mr-[7rem]">
-          DRAFT DIGITAL
-        </p> */}
-      </div>
       <div className="flex flex-row w-full justify-center items-center">
         <div className="flex mf:flex-col flex-col justify-start py-12 px-4 md:p-20 sm:p-10">
-          <h1 className="text-8xl  text-white text-gradient pt-4 px-16">
-            Let´s
+          <h1 className="text-8xl text-gradient pt-4 px-16">
+            Let's
           </h1>
-          <h1 className="text-8xl  text-white text-gradient pt-4 px-16">
+          <h1 className="text-8xl text-gradient pt-4 px-16">
             connect
           </h1>
           <div className="py-12 px-4 md:p-20 sm:p-10">
@@ -39,7 +33,7 @@ export default function Contact() {
               />
               <button
                 type="submit"
-                className="bg-[#005d62] py-2 px-7 mx-4  rounded-md cursor-pointer hover:bg-[#2546bd]"
+                className="bg-[#8db9e2] py-2 px-7 mx-4  rounded-md cursor-pointer hover:bg-[#A0AECD] "
               >
                 Request an audit
               </button>
@@ -48,10 +42,10 @@ export default function Contact() {
         </div>
 
         <div className="flex mf:flex-col flex-col justify-start py-12 px-4 md:p-20 sm:p-10">
-          <p className="pb-1">Email Us</p>
-          <p className="pb-3">info@draftdigital.org</p>
-          <p className="pb-3">Follow us</p>
-          <div className="flex flex-row gap-3">
+          <p className="text-[#a1acba] pb-1">Email Us</p>
+          <p className="text-[#dce0e5] pb-3">info@draftdigital.org</p>
+          <p className="text-[#a1acba] pb-3">Follow us</p>
+          <div className="text-[#dce0e5] flex flex-row gap-3">
             <a
               href="https://www.linkedin.com/in/aitor-zaldua/"
               target="_blank"
@@ -76,8 +70,8 @@ export default function Contact() {
           </div>
         </div>
         <div className="flex mf:flex-col flex-col justify-start py-12 px-4 md:p-20 sm:p-10">
-          <p lassName="pb-3">Navigation</p>
-          <ul className="flex flex-col text-white md:flex list-none justify-start">
+          <p className="pb-3 text-[#a1acba]">Navigation</p>
+          <ul className="flex flex-col text-[#dce0e5] md:flex list-none justify-start">
             <Link
               activeClass="active"
               to="Nav"
