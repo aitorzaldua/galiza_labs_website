@@ -1,15 +1,12 @@
-import { SiWeb3Dotjs } from "react-icons/si";
-import { BsShieldFillCheck } from "react-icons/bs";
-import { TiPencil } from "react-icons/ti";
-import { ImNewspaper } from "react-icons/im";
 import Image from "next/image";
-import astronaut002 from "../images/astronaut002.png";
-import reporter001 from "../images/reporter001.png";
+import lighthouse from "../images/services/lighthouse1.png";
+import boat from "../images/services/boat1.png";
+
 
 const ServiceCard = ({ color, title, icon, subtitle }) => (
   <div className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl hover:bg-[#0d1f31]">
     <div
-      className={`w-56 rounded-full flex justify-center items-center ${color}`}
+      className={`w-[12rem] rounded-full flex justify-center items-center ${color}`}
     >
       {icon}
     </div>
@@ -36,7 +33,7 @@ const ServiceCard3 = ({ color, title, icon, subtitle }) => (
       <p className="mt-2 text-[#dce0e5] text-sm md:w-9/12">{subtitle}</p>
     </div>
     <div
-      className={`w-56 rounded-full flex justify-center items-center ${color}`}
+      className={`w-[12rem] rounded-full flex justify-center items-center ${color}`}
     >
       {icon}
     </div>
@@ -67,7 +64,7 @@ export default function Services() {
           title="Smart Contract Audits"
           icon={
             <Image
-              src={astronaut002}
+              src={lighthouse}
               alt="astroPlanets"
               className="w-800 cursor-pointer"
             />
@@ -112,7 +109,7 @@ export default function Services() {
           title="News and Ecosystem Information"
           icon={
             <Image
-              src={reporter001}
+              src={boat}
               alt="astroPlanets"
               className="w-800 cursor-pointer"
             />
