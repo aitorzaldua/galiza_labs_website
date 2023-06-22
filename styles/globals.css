@@ -52,15 +52,17 @@ body {
 .gradient-bg-services {
   background-color: hsla(205, 39%, 12%, 1);
   background-image:
-    radial-gradient(at 23% 47%, hsla(183, 43%, 32%, 0.34) 0px, transparent 50%),
-    radial-gradient(at 33% 55%, hsla(183, 42%, 48%, 0.27) 0px, transparent 50%);
+    radial-gradient(at 36% 66%, hsla(230, 54%, 17%, 1) 0px, transparent 50%),
+    radial-gradient(at 81% 58%, hsla(217, 78%, 22%, 1) 0px, transparent 50%),
+    radial-gradient(at 20% 47%, hsla(220, 61%, 19%, 1) 0px, transparent 50%);
 }
 
 .gradient-bg-auditProcess {
   background-color: hsla(205, 39%, 12%, 1);
   background-image:
-    radial-gradient(at 60% 51%, hsla(220, 14%, 43%, 0.43) 0px, transparent 50%),
-    radial-gradient(at 64% 51%, hsla(217, 15%, 64%, 0.2) 0px, transparent 50%);
+    radial-gradient(at 34% 39%, hsla(222, 27%, 3%, 1) 0px, transparent 50%),
+    radial-gradient(at 70% 46%, hsla(205, 39%, 12%, 1) 0px, transparent 50%),
+    radial-gradient(at 52% 48%, hsla(217, 75%, 66%, 1) 0px, transparent 50%);
 }
 
 .gradient-bg-audits {
