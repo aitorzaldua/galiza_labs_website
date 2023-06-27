@@ -1,6 +1,4 @@
 import Image from "next/image";
-import compass17 from "../images/services/compas17.png";
-import compass18 from "../images/services/compas18.png";
 import eth2 from "../images/services/eth2.png";
 import shield1 from "../images/services/shield1.png";
 
@@ -46,9 +44,7 @@ const ServiceCard3 = ({ color, title, icon, subtitle }) => (
 export default function Services() {
   return (
     <div
-      className="flex w-full flex-col justify-center items-center gradient-bg-services 2xl:px-40"
-      id="Services"
-    >
+      className="flex w-full flex-col justify-center items-center gradient-bg-services 2xl:px-40" id="Services">
       <div className="flex md:flex-row flex-col  2xl:py-12 py-6">
         <h1 className=" text-6xl text-gradient pt-8 px-16">
           What we do
@@ -61,7 +57,7 @@ export default function Services() {
         </p>
       </div>
 
-      <div className="flex-1 flex flex-row justify-start items-center w-[85rem]">
+      <div className="flex-1 flex md:flex-row sm:flex-col justify-start items-center w-[85rem]">
         <ServiceCard
           color=""
           title="Smart Contract Audits"
@@ -95,7 +91,7 @@ export default function Services() {
         />
       </div>
 
-      <div className="flex-1 flex flex-row justify-start items-center w-[85rem]">
+      <div className="flex-1 flex md:flex-row sm:flex-col justify-start items-center w-[85rem]">
         <ServiceCard2
           color="bg-[#25bdf8]"
           title="Web3 Security Education"
