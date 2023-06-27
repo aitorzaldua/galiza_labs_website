@@ -1,24 +1,15 @@
-//import { AiOutlineClose } from "react-icons/ai";
-//import { HiMenuAlt4 } from "react-icons/hi";
 import Image from "next/image";
 import { Link } from "react-scroll/modules";
 import logo from "../images/Logos/DDLogo6.png";
 
-/* const NavbarItem = ({ title, classProps }) => {
-  return <li className="mx-4 cursor-pointer ${classProps}">{title}</li>;
-}; */
 
 export default function Navbar() {
   return (
     <nav className="w-full flex md:justify-center justify-between items-center pt-6" id="Nav">
       <div className="md:flex-[0.5] flex flex-row flex-initial justify-start items-center ">
         <Image src={logo} alt="logo" className="w-[12rem]" />
-        {/* <p className=" text-[#2a68a2] py-1 mr-[7rem]">
-          draft digital
-        </p> */}
       </div>
-      {/* Nota: en el ul hemos quitado el hidden */}
-      <ul className="text-[#dce0e5] md:flex list-none flex-row justify-between items-center flex-initial">
+      <ul className="text-[#dce0e5] md:flex hidden list-none flex-row justify-between items-center flex-initial">
         <Link
           activeClass="active"
           to="Services"
@@ -63,14 +54,6 @@ export default function Navbar() {
         >
           Request an audit
         </Link>
-
-        {/* <li className="mx-4 cursor-pointer">Home</li>
-        <li className="mx-4 cursor-pointer">What We do</li>
-        <li className="mx-4 cursor-pointer">The Audit Process</li>
-        <li className="mx-4 cursor-pointer">University</li>
-        <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
-          Request an audit
-        </li> */}
       </ul>
     </nav>
   );
