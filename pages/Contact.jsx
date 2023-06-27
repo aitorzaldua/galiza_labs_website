@@ -33,7 +33,7 @@ export default function Contact() {
             <form
               ref={form}
               onSubmit={sendEmail}
-              className="flex flex-row gap-4 rounded-md"
+              className="flex flex-row md:gap-4 gap-2 rounded-md"
             >
               <input
                 type="email"
@@ -44,7 +44,7 @@ export default function Contact() {
               />
               <button
                 type="submit"
-                className="bg-[#8db9e2] py-2 px-7 mx-4  rounded-md cursor-pointer hover:bg-[#A0AECD] "
+                className="bg-[#8db9e2] py-2 px-7 md:mx-4  rounded-md cursor-pointer hover:bg-[#A0AECD] "
               >
                 Request an audit
               </button>
