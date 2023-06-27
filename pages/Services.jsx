@@ -1,6 +1,9 @@
 import Image from "next/image";
-import lighthouse from "../images/services/lighthouse1.png";
-import boat from "../images/services/boat1.png";
+import compass17 from "../images/services/compas17.png";
+import compass18 from "../images/services/compas18.png";
+import eth2 from "../images/services/eth2.png";
+import shield1 from "../images/services/shield1.png";
+
 
 
 const ServiceCard = ({ color, title, icon, subtitle }) => (
@@ -64,7 +67,7 @@ export default function Services() {
           title="Smart Contract Audits"
           icon={
             <Image
-              src={lighthouse}
+              src={shield1}
               alt="astroPlanets"
               className="w-800 cursor-pointer"
             />
@@ -109,7 +112,7 @@ export default function Services() {
           title="News and Ecosystem Information"
           icon={
             <Image
-              src={boat}
+              src={eth2}
               alt="astroPlanets"
               className="w-800 cursor-pointer"
             />

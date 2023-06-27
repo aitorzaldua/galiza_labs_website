@@ -75,7 +75,7 @@ export default function AuditProcess() {
         {data.map(({ id, image, title, note }) => {
           return (
             <SwiperSlide className="flex flex-row  justify-start items-center py-3 px-[2rem] 2xl:px-[4rem] m-2 cursor-pointer hover:text-xl">
-              <h5 className="text-[#c577f9] flex justify-center items-center pb-5">
+              <h5 className="text-[#046bf1] flex justify-center items-center pb-5">
                 {title}
               </h5>
               <div className="flex flex-row justify-center items-center">
