@@ -23,13 +23,13 @@ const ServiceCard = ({ title, icon1, icon2, icon3, icon4 }) => (
     <div className={`w-[16rem] rounded-full flex justify-center items-center`}>
       {icon1}
     </div>
-    <div className={`w-[16rem] rounded-full flex justify-center items-center`}>
+    <div className={`w-[16rem] rounded-full md:flex hidden justify-center items-center`}>
       {icon2}
     </div>
-    <div className={`w-[16rem] rounded-full flex justify-center items-center`}>
+    <div className={`w-[16rem] rounded-full md:flex hidden justify-center items-center`}>
       {icon3}
     </div>
-    <div className={`w-[16rem] rounded-full flex justify-center items-center`}>
+    <div className={`w-[16rem] rounded-full md:flex hidden justify-center items-center`}>
       {icon4}
     </div>
   </div>
