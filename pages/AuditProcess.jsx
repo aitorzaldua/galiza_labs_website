@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../images/world01.png";
+import logo from "../images/Logos/DDLogo6.png";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";

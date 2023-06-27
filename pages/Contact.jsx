@@ -1,9 +1,6 @@
-import { BsLinkedin } from "react-icons/bs";
 import { IoLogoTwitter } from "react-icons/io";
 import { BsGithub } from "react-icons/bs";
-import { AiFillHeart } from "react-icons/ai";
 import { Link } from "react-scroll/modules";
-//import emailjs from '@emailjs/browser';
 import Image from "next/image";
 
 import React, { useRef } from "react";
