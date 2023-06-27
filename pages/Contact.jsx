@@ -27,13 +27,13 @@ export default function Contact() {
     <div className="flex flex-col justify-center items-center gradient-bg-welcome min-w-full pt-36" id="Contact">
       <div className="flex md:flex-row flex-col w-full justify-center items-center">
         <div className="flex mf:flex-col flex-col justify-start md:p-20">
-          <h1 className="text-8xl text-gradient pt-4 px-16">Let's</h1>
-          <h1 className="text-8xl text-gradient pt-4 px-16">connect</h1>
+          <h1 className="md:text-8xl text-4xl text-gradient pt-4 px-16">Let's</h1>
+          <h1 className="md:text-8xl text-4xl text-gradient pt-4 px-16">connect</h1>
           <div className="py-12 px-4 md:p-20 pl-12">
             <form
               ref={form}
               onSubmit={sendEmail}
-              className="flex flex-row md:gap-4 gap-2 rounded-md"
+              className="flex md:flex-row flex-col md:gap-4 gap-2 rounded-md"
             >
               <input
                 type="email"
