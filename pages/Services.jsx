@@ -45,11 +45,11 @@ export default function Services() {
   return (
     <div
       className="flex w-full flex-col justify-center items-center gradient-bg-services 2xl:px-40" id="Services">
-      <div className="flex md:flex-row flex-col  2xl:py-12 py-6">
-        <h1 className=" text-6xl text-gradient pt-8 px-16">
+      <div className="flex md:flex-row flex-col  md:py-12 py-6">
+        <h1 className="md:text-6xl text-3xl text-gradient pt-8 md:pl-16 md:pr-16 pl-[7.5rem]">
           What we do
         </h1>
-        <p className="flex items-center justify-center text-[#dce0e5] md:w-[26rem] w-[20rem] pt-6 md:pl-0 pl-12">
+        <p className="flex items-center justify-center text-[#dce0e5] w-[26rem] pt-6 md:pl-0 pl-12">
           Draft Digital is a Web3 security company dedicated to providing high
           standards of protection and security for our partners and their
           projects. Our mission is to create a secure, reliable and transparent

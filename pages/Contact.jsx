@@ -26,10 +26,12 @@ export default function Contact() {
   return (
     <div className="flex flex-col justify-center items-center gradient-bg-welcome min-w-full pt-36" id="Contact">
       <div className="flex md:flex-row flex-col w-full justify-center items-center">
-        <div className="flex mf:flex-col flex-col justify-start md:p-20">
-          <h1 className="md:text-8xl text-4xl text-gradient pt-4 px-16">Let's</h1>
-          <h1 className="md:text-8xl text-4xl text-gradient pt-4 px-16">connect</h1>
-          <div className="py-12 px-4 md:p-20 pl-12">
+        <div className="flex flex-col justify-start md:p-20">
+          <div className="flex md:flex-col flex-row">
+            <h1 className="md:text-8xl text-4xl text-gradient pt-4 md:px-16">Let's</h1>
+            <h1 className="md:text-8xl text-4xl text-gradient pt-4 md:px-16 px-4">connect</h1>
+          </div>
+          <div className="py-12 px-4 md:p-20 pl-7 pr-11">
             <form
               ref={form}
               onSubmit={sendEmail}

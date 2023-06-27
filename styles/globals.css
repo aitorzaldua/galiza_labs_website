@@ -68,8 +68,8 @@ body {
 .gradient-bg-audits {
   background-color: hsla(205, 39%, 12%, 1);
   background-image:
-    radial-gradient(at 18% 47%, hsla(359, 47%, 24%, 0.43) 0px, transparent 50%),
-    radial-gradient(at 52% 50%, hsla(359, 47%, 36%, 0.2) 0px, transparent 50%);
+    radial-gradient(at 18% 47%, hsla(165, 81%, 15%, 0.614) 0px, transparent 50%),
+    radial-gradient(at 52% 50%, hsla(214, 87%, 25%, 0.409) 0px, transparent 50%);
 }
 
 .gradient-bg-contact {
