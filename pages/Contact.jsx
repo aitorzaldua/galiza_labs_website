@@ -5,7 +5,6 @@ import { AiFillHeart } from "react-icons/ai";
 import { Link } from "react-scroll/modules";
 //import emailjs from '@emailjs/browser';
 import Image from "next/image";
-import logo from "../images/DDLogo1.png";
 
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
