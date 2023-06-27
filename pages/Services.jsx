@@ -49,7 +49,7 @@ export default function Services() {
         <h1 className="md:text-6xl text-3xl text-gradient pt-8 md:pl-16 md:pr-16 pl-[7.5rem]">
           What we do
         </h1>
-        <p className="flex items-center justify-center text-[#dce0e5] w-[26rem] pt-6 md:pl-0 pl-12">
+        <p className="flex items-center justify-center text-[#dce0e5] w-[26rem] pt-6 md:pl-0 pl-10">
           Draft Digital is a Web3 security company dedicated to providing high
           standards of protection and security for our partners and their
           projects. Our mission is to create a secure, reliable and transparent

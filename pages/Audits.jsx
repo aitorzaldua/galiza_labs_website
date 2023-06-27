@@ -37,13 +37,13 @@ export default function AuditProcess() {
     <div className="flex flex-col w-full justify-center items-center gradient-bg-audits">
       <div className="flex mf:flex-row flex-col items-center justify-between py-12 px-4 md:p-20 sm:p-10">
         <div className="flex-1 flex flex-col justify-start items-start">
-          <h1 className="text-gradient md:text-6xl text-2xl sm:text-5xl pt-12">
+          <h1 className="text-gradient md:text-6xl text-2xl sm:text-5xl pt-12 md:pl-0 pl-4">
             Check Audits, Articles and News
           </h1>
         </div>
       </div>
 
-      <p className="text-[#dce0e5] pb-8 md:pl-0 pl-8">
+      <p className="text-[#dce0e5] pb-8 md:pl-0 pl-6">
         Web security3 is a journey of continuous discovery. It is essential to
         keep up to date with the latest exploits and discoveries.
       </p>

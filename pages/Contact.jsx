@@ -58,7 +58,7 @@ export default function Contact() {
           <p className="md:flex hidden text-[#a1acba] pb-1">Email Us</p>
           <p className="text-[#dce0e5] pb-3 md:pr-0 pr-8">info@draftdigital.org</p>
           <p className="md:flex hidden text-[#a1acba] pb-3">Follow us</p>
-          <div className="text-[#dce0e5] flex flex-row md:pl-0 pl-8 md:gap-3 gap-16">
+          <div className="text-[#dce0e5] flex flex-row md:pl-0 pl-10 md:gap-3 gap-16">
             <a
               href="https://twitter.com/azdraft_"
               target="_blank"
