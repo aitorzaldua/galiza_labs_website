@@ -5,6 +5,7 @@ import Services from "./Services";
 import Contact from "./Contact";
 import AuditProcess from "./AuditProcess";
 import Audits from "./Audits";
+import Footer from "./Footer";
 
 export default function Home() {
   return (

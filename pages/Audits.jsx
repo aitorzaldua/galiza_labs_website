@@ -14,9 +14,12 @@ import news02 from "../images/auditsArticlesNews/news02.png";
 import news03 from "../images/auditsArticlesNews/news03.png";
 import news04 from "../images/auditsArticlesNews/news04.png";
 
-const ServiceCard = ({ title, icon1, icon2, icon3, icon4 }) => (
-  <div className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 gap-12 hover:shadow-xl hover:bg-[#0d1f31]" id="Audits">
-    <h1 className="mt-2 text-white text-lg">{title}</h1>
+const ServiceCard = ({ title1, title2, icon1, icon2, icon3, icon4 }) => (
+  <div className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 gap-12 hover:shadow-xl hover:bg-[#0d1f31]">
+    <div>
+      <h1 className="mt-2 text-white text-lg">{title1}</h1>
+      <h1 className="mt-2 text-white text-lg">{title2}</h1>
+    </div>
     <div className={`w-[16rem] rounded-full flex justify-center items-center`}>
       {icon1}
     </div>
@@ -34,22 +37,17 @@ const ServiceCard = ({ title, icon1, icon2, icon3, icon4 }) => (
 
 export default function AuditProcess() {
   return (
-    <div className="flex flex-col w-full justify-center items-center gradient-bg-audits">
-      <div className="flex mf:flex-row flex-col items-center justify-between py-12 px-4 md:p-20 sm:p-10">
-        <div className="flex-1 flex flex-col justify-start items-start">
-          <h1 className="text-gradient md:text-6xl text-2xl sm:text-5xl pt-12 md:pl-0 pl-4">
-            Check Audits, Articles and News
-          </h1>
-        </div>
-      </div>
-
-      <p className="text-[#dce0e5] pb-8 md:pl-0 pl-6">
-        Web security3 is a journey of continuous discovery. It is essential to
+    <div className="flex flex-col w-full justify-center items-center gradient-bg-audits pt-12 2xl:pb-20 md:pb-20  2xl:px-[4rem]" id="Audits">
+      <p className="md:text-6xl text-3xl text-gradient pb-4 pt-6 px-16 font-light">
+        Check Audits, Articles and News
+      </p>
+      <p className="md:text-xl text-[#8db9e2] w-[62rem] md:pt-6 md:pb-14 md:pl-0 pl-4 font-light">
+        Web3 security is a journey of continuous discovery. It is essential to
         keep up to date with the latest exploits and discoveries.
       </p>
-      <div className="flex-1 flex flex-row justify-start items-center rounded-md max-w-full pb-8">
+      <div className="flex-1 flex flex-row justify-start items-center rounded-md max-w-full pb-8 font-light">
         <ServiceCard
-          title="Code Audits"
+          title1="Code Audits"
           icon1={
             <Link
               href="https://ipfs.io/ipfs/bafybeicjla2h26q3wz4s344bsrtvhkxr3ypm44owvrzyorb2t6tcptlmem/C4%20Slingshot%20report.pdf"
@@ -104,9 +102,9 @@ export default function AuditProcess() {
           }
         />
       </div>
-      <div className="flex-1 flex flex-row justify-start items-center max-w-full  pb-8">
+      <div className="flex-1 flex flex-row justify-start items-center max-w-full  pb-8 font-light">
         <ServiceCard
-          title="Tech Articles"
+          title1="Tech Articles"
           icon1={
             <Link
               href="https://medium.com/coinsbench/hardhat-testing-without-knowing-javascript-73099c05b1d4"
@@ -162,9 +160,9 @@ export default function AuditProcess() {
         />
       </div>
 
-      <div className="flex-1 flex flex-row justify-start items-center max-w-full">
+      <div className="flex-1 flex flex-row justify-start items-center max-w-full font-light">
         <ServiceCard
-          title="Crypto News"
+          title1="Crypto News"
           icon1={
             <Link
               href="https://cryptonews.com/"

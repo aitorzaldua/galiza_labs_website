@@ -8,33 +8,53 @@ import { AiOutlineClose } from "react-icons/ai";
 export default function Navbar() {
   const Menu = () => (
     <>
-      <div>
-        <a href="#Services" className="px-4 font-bold relative w-max two">
+      <Link
+          activeClass="active"
+          to="Services"
+          spy={true}
+          smooth={true}
+          offset={-0}
+          duration={500}
+          className="mx-4 cursor-pointer hover:text-xl"
+        >
+          <a href="#Services" offset={400} className="px-4 font-bold relative w-max two">
           <span>Services</span>
           <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-[#046bf1]"></span>
           <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-[#046bf1]"></span>
         </a>
-      </div>
-      <div>
-        <a href="#AuditProcess" className="px-4 font-bold relative w-max two">
+        </Link>
+        <Link
+          activeClass="active"
+          to="AuditProcess"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+          className="mx-4 cursor-pointer hover:text-xl"
+        >
+          <a href="#AuditProcess" className="px-4 font-bold relative w-max two">
           <span>Methodology</span>
           <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-[#046bf1]"></span>
           <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-[#046bf1]"></span>
         </a>
-      </div>
-      <div>
-        <a href="#Audits" offset={400} className="px-4 font-bold relative w-max two">
+        </Link>
+      <Link
+          activeClass="active"
+          to="Audits"
+          spy={true}
+          smooth={true}
+          offset={-220}
+          duration={500}
+          className="mx-4 cursor-pointer hover:text-xl"
+        >
+          <a href="#Audits" offset={400} className="px-4 font-bold relative w-max two">
           <span>Audits</span>
           <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-[#046bf1]"></span>
           <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-[#046bf1]"></span>
         </a>
-      </div>
+        </Link>
     </>
   );
-
-  const NavbarItem = ({ title, classProps }) => {
-    return <li className={"mx-4 cursor-pointer ${classProps}"}>{title}</li>;
-  };
 
   const [toggleMenu, setToggleMenu] = useState(false);
 
