@@ -26,18 +26,18 @@ export default function Contact() {
 
   return (
     <div
-      className="flex flex-col w-full justify-center items-center gradient-bg-welcome 2xl:pt-8 md:pt-10 2xl:px-[4rem]"
+      className="flex flex-col w-full justify-center items-center gradient-bg-welcome 2xl:pt-8 pt-10 2xl:px-[4rem]"
       id="Contact"
     >
       <p className="md:text-6xl text-3xl text-gradient pb-4 px-16 font-light">
         Request an Audit
       </p>
-      <p className="md:text-xl text-[#8db9e2] w-[62rem] 2xl:pb-24 md:pb-16 md:pt-6 md:pl-0 pl-4 font-light">
+      <p className="md:text-xl text-[#8db9e2] md:w-[62rem] w-[24rem] 2xl:pb-24 pb-16 pt-6 md:pl-0 pl-4 font-light">
         Or simply get in touch and let us know how we can help you and your
         business. From a simple free consultation to a full audit, your project
         will definitely be safer.
       </p>
-      <div className="flex md:flex-row flex-col w-full justify-center items-center">
+      <div className="flex flex-row w-full justify-center items-center">
         {/* Right Side */}
         <div className="justify-start">
           <div className="md:flex hidden flex-initial  justify-center items-center 2xl:pt-0 md:pr-4 2xl:pr-0">
@@ -49,14 +49,14 @@ export default function Contact() {
 
         <div className="flex flex-col 2xl:pt-0 2xl:pl-16">
           {/* Email us and Sitemap */}
-          <div className="flex flex-row">
-            <div className="flex md:flex-col justify-start pl-20 pr-12">
-              <p className="md:flex hidden text-[#a1acba] pb-1">Email Us</p>
+          <div className="flex md:flex-row flex-col">
+            <div className="flex flex-col justify-start pl-20 pr-12">
+              <p className="md:flex text-[#a1acba] pb-1">Email Us</p>
               <p className="text-[#8db9e2] pb-3 md:pr-0 pr-8 font-light">
                 info@draftdigital.org
               </p>
-              <p className="md:flex hidden text-[#a1acba] pt-8 pb-3">Follow us</p>
-              <div className="text-[#8db9e2] flex flex-row md:pl-0 pl-10 md:gap-3 gap-16">
+              <p className="flex flex-col text-[#a1acba] pt-8 pb-3">Follow us</p>
+              <div className="text-[#8db9e2] flex flex-row gap-3">
                 <a
                   href="https://twitter.com/azdraft_"
                   target="_blank"
@@ -132,14 +132,14 @@ export default function Contact() {
             </div>
             
           </div>
-           <div className="px-4 pl-20 pr-11 2xl:pt-32 md:pt-20">
+           <div className="px-4 pl-20 pr-11 2xl:pt-32 md:pt-20 pt-12">
             <p className="text-[#a1acba] font-light pb-4">
               Let us know your email address and we will contact you.
             </p>
             <form
               ref={form}
               onSubmit={sendEmail}
-              className="flex md:flex-row flex-col md:gap-4 gap-2 rounded-md"
+              className="flex md:flex-row flex-col md:gap-4 gap-2 rounded-md md:w-[30rem] w-[16rem]"
             >
               <input
                 type="email"
@@ -163,10 +163,10 @@ export default function Contact() {
         {/* The line! */}
         <div class="footer-cta pt-5 pb-5"></div>
         {/* Till here the line */}
-        <div className="flex flex-row gap-56 text-[#8db9e2] font-light p-4">
+        <div className="md:flex flex-row md:gap-56 text-[#8db9e2] font-light p-4">
           <small>Draft Digital founded in 2021.</small>
-          <small>&copy; UI Designed with 🩵 by MG.</small>
-          <small>Make the web3 a better place.</small>
+          <small className="md:pl-0 pl-4">&copy; UI Designed with 🩵 by MG.</small>
+          <small className="md:flex hidden">Make the web3 a better place.</small>
         </div>
       </footer>
     </div>

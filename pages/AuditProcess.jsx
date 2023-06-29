@@ -57,7 +57,7 @@ export default function AuditProcess() {
       <p className="md:text-6xl text-3xl text-gradient pb-4 pt-6 px-16 font-light">
         Methodology
       </p>
-      <p className="md:text-xl text-[#8db9e2] w-[62rem] md:pt-6 md:pb-24 md:pl-0 pl-4 font-light">
+      <p className="md:text-xl text-[#8db9e2] md:w-[62rem] w-[24rem] md:pt-6 md:pb-24 md:pl-0 pl-4 font-light">
         An audit is a meticulous and detailed process. We guarantee the
         success of the service by providing a detailed roadmap.
       </p>

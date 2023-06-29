@@ -2,7 +2,8 @@ import Image from "next/image";
 import eth2 from "../images/services/eth2.png";
 import shield1 from "../images/services/shield1.png";
 
-
+import { BsFillArrowUpSquareFill } from "react-icons/bs";
+import { BsFillArrowDownSquareFill } from "react-icons/bs";
 
 const ServiceCard = ({ color, title, icon, subtitle }) => (
   <div className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl hover:bg-[#0d1f31]">
@@ -13,7 +14,9 @@ const ServiceCard = ({ color, title, icon, subtitle }) => (
     </div>
     <div className="ml-5 flex flex-col flex-1">
       <h1 className="mt-2 text-[#a1acba] text-lg">{title}</h1>
-      <p className="mt-2 text-[#dce0e5] text-sm md:w-9/12 font-light">{subtitle}</p>
+      <p className="mt-2 text-[#dce0e5] text-sm md:w-9/12 font-light">
+        {subtitle}
+      </p>
     </div>
   </div>
 );
@@ -22,7 +25,9 @@ const ServiceCard2 = ({ color, title, subtitle }) => (
   <div className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl hover:bg-[#0d1f31]">
     <div className="ml-5 flex flex-col flex-1">
       <h1 className="mt-2 text-[#a1acba] text-lg">{title}</h1>
-      <p className="mt-2 text-[#dce0e5] text-sm md:w-9/12 font-light">{subtitle}</p>
+      <p className="mt-2 text-[#dce0e5] text-sm md:w-9/12 font-light">
+        {subtitle}
+      </p>
     </div>
   </div>
 );
@@ -31,7 +36,9 @@ const ServiceCard3 = ({ color, title, icon, subtitle }) => (
   <div className="flex flex-row  justify-start items-center white-glassmorphism p-3 m-2 cursor-pointer hover:shadow-xl hover:bg-[#0d1f31]">
     <div className="ml-5 flex flex-col flex-1">
       <h1 className="mt-2 text-[#a1acba] text-lg">{title}</h1>
-      <p className="mt-2 text-[#dce0e5] text-sm md:w-9/12 font-light">{subtitle}</p>
+      <p className="mt-2 text-[#dce0e5] text-sm md:w-9/12 font-light">
+        {subtitle}
+      </p>
     </div>
     <div
       className={`w-[12rem] rounded-full flex justify-center items-center ${color}`}
@@ -44,12 +51,14 @@ const ServiceCard3 = ({ color, title, icon, subtitle }) => (
 export default function Services() {
   return (
     <div
-      className="flex w-full flex-col justify-center items-center gradient-bg-services 2xl:px-40 2xl:pb-20" id="Services">
+      className="flex w-full flex-col justify-center items-center gradient-bg-services 2xl:px-40 2xl:pb-20"
+      id="Services"
+    >
       <div className="flex flex-col  2xl:py-14 md:py-12 py-6">
         <p className="flex justify-center md:text-6xl text-3xl text-gradient pb-4 pt-6 font-light">
           Services
         </p>
-        <p className="flex items-center justify-center text-[#8db9e2] w-[62rem] md:pt-6 md:pl-0 font-light">
+        <p className="flex items-center justify-center text-[#8db9e2] md:w-[62rem] w-[24rem] md:pt-6 md:pl-0 font-light">
           Draft Digital is a Web3 security company dedicated to providing high
           standards of protection and security for our partners and their
           projects. Our mission is to create a secure, reliable and transparent
@@ -126,6 +135,18 @@ export default function Services() {
           }
         />
       </div>
+      {/* <div className="flex flex-row  pl-[80rem] text-[#8db9e2] md:gap-3 gap-16">
+        <a href="https://twitter.com/azdraft_" target="_blank" rel="noreferrer">
+          <BsFillArrowUpSquareFill />
+        </a>
+        <a
+          href="https://github.com/aitorzaldua"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsFillArrowDownSquareFill />
+        </a>
+      </div> */}
     </div>
   );
 }

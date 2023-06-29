@@ -41,7 +41,7 @@ export default function AuditProcess() {
       <p className="md:text-6xl text-3xl text-gradient pb-4 pt-6 px-16 font-light">
         Check Audits, Articles and News
       </p>
-      <p className="md:text-xl text-[#8db9e2] w-[62rem] md:pt-6 md:pb-14 md:pl-0 pl-4 font-light">
+      <p className="md:text-xl text-[#8db9e2] md:w-[62rem] w-[24rem] md:pt-6 md:pb-14 md:pl-0 pl-4 font-light">
         Web3 security is a journey of continuous discovery. It is essential to
         keep up to date with the latest exploits and discoveries.
       </p>
