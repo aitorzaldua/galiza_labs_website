@@ -34,9 +34,9 @@ export default function AuditProcess() {
       id: 4,
       image: logo,
       title: "Initial report",
-      note: "The so-called initial report is the one that already contains the 100% code review. It will be delivered for review by the client and, subsequently, a meeting will be held between the engineers involved to review and explain each vulnerability or possible improvement detected."
+      note: "The so-called initial report is the one that already contains the 100% code review. It will be delivered for review by the client and, subsequently, a meeting will be held between the engineers involved to review and explain each vulnerability or possible improvement detected.",
     },
-      {
+    {
       id: 5,
       image: logo,
       title: "Mitigation",
@@ -58,35 +58,69 @@ export default function AuditProcess() {
         Methodology
       </p>
       <p className="md:text-xl text-[#8db9e2] md:w-[62rem] w-[24rem] md:pt-6 md:pb-24 md:pl-0 pl-4 font-light">
-        An audit is a meticulous and detailed process. We guarantee the
-        success of the service by providing a detailed roadmap.
+        An audit is a meticulous and detailed process. We guarantee the success
+        of the service by providing a detailed roadmap.
       </p>
+      <div className="w-[24rem] flex md:hidden">
       <Swiper
-        className="container w-[75%] md:text-base text-xs"
-        modules={[Pagination, Navigation, Scrollbar, A11y]}
-        spaceBetween={40}
-        slidesPerView={3}
-        navigation
-        pagination={{ clickable: true }}
-        scrollbar={{ draggable: true }}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
-      >
-        {data.map(({ id, image, title, note }) => {
-          return (
-            <SwiperSlide className="flex flex-row  justify-start items-center py-3 px-[2rem] 2xl:px-[4rem] m-2 cursor-pointer hover:text-xl">
-              <h5 className="text-[#046bf1] flex justify-center items-center pb-5">
-                {title}
-              </h5>
-              <div className="flex flex-row justify-center items-center">
-                <p className="flex justify-center items-center text-[#dce0e5] font-light">
-                  {note}
-                </p>
-              </div>
-            </SwiperSlide>
-          );
-        })}
-      </Swiper>
+          className="container w-[75%] md:text-base text-xs"
+          modules={[Pagination, Navigation, Scrollbar, A11y]}
+          spaceBetween={40}
+          slidesPerView={1}
+          navigation
+          pagination={{ clickable: true }}
+          scrollbar={{ draggable: true }}
+          onSlideChange={() => console.log("slide change")}
+          onSwiper={(swiper) => console.log(swiper)}
+        >
+          {data.map(({ id, image, title, note }) => {
+            return (
+              <SwiperSlide className="flex flex-row  justify-start items-center py-3 px-[2rem] 2xl:px-[4rem] m-2 cursor-pointer">
+                <h5 className="text-[#046bf1] flex justify-center items-center pb-5">
+                  {title}
+                </h5>
+                <div className="flex flex-row justify-center items-center">
+                  <p className="flex justify-center items-center text-[#dce0e5] font-light">
+                    {note}
+                  </p>
+                </div>
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      </div>
+      <div className="md:flex hidden">
+      <Swiper
+          className="container w-[75%] md:text-base text-xs"
+          modules={[Pagination, Navigation, Scrollbar, A11y]}
+          spaceBetween={40}
+          slidesPerView={3}
+          navigation
+          pagination={{ clickable: true }}
+          scrollbar={{ draggable: true }}
+          onSlideChange={() => console.log("slide change")}
+          onSwiper={(swiper) => console.log(swiper)}
+        >
+          {data.map(({ id, image, title, note }) => {
+            return (
+              <SwiperSlide className="flex flex-row  justify-start items-center py-3 px-[2rem] 2xl:px-[4rem] m-2 cursor-pointer hover:text-xl">
+                <h5 className="text-[#046bf1] flex justify-center items-center pb-5">
+                  {title}
+                </h5>
+                <div className="flex flex-row justify-center items-center">
+                  <p className="flex justify-center items-center text-[#dce0e5] font-light">
+                    {note}
+                  </p>
+                </div>
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+
+      </div>
+        
+
+      
     </div>
   );
 }
