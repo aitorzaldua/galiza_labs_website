@@ -9,21 +9,31 @@ export default function Navbar() {
   const Menu = () => (
     <>
       <div>
-        <a href="#Services" className="px-4 font-bold relative w-max two">
+        <a
+          href="#Services"
+          className="px-4 md:font-bold font-light relative w-max two"
+        >
           <span>Services</span>
           <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-[#046bf1]"></span>
           <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-[#046bf1]"></span>
         </a>
       </div>
       <div>
-        <a href="#AuditProcess" className="px-4 font-bold relative w-max two">
+        <a
+          href="#AuditProcess"
+          className="px-4 pt-6 md:font-bold font-light relative w-max two"
+        >
           <span>Methodology</span>
           <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-[#046bf1]"></span>
           <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-[#046bf1]"></span>
         </a>
       </div>
       <div>
-        <a href="#Audits" offset={400} className="px-4 font-bold relative w-max two">
+        <a
+          href="#Audits"
+          offset={400}
+          className="px-4 md:font-bold font-light relative w-max two"
+        >
           <span>Audits</span>
           <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-[#046bf1]"></span>
           <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-[#046bf1]"></span>
@@ -31,10 +41,6 @@ export default function Navbar() {
       </div>
     </>
   );
-
-  const NavbarItem = ({ title, classProps }) => {
-    return <li className={"mx-4 cursor-pointer ${classProps}"}>{title}</li>;
-  };
 
   const [toggleMenu, setToggleMenu] = useState(false);
 
@@ -78,7 +84,7 @@ export default function Navbar() {
         )}
         {toggleMenu && (
           <ul
-            className="z-10 fixed -top-0 -right-2 p-3 w-[70vw] h-screen shadow-2xl md:hidden list-none
+            className="z-10 fixed -top-0 -right-2 p-3 w-[70vw] gap-5 h-screen shadow-2xl md:hidden list-none
             flex flex-col justify-start items-end rounded-md blue-glassmorphism text-[#8db9e2] animate-slide-in"
           >
             <div className="text-xl w-full my-2">
@@ -92,7 +98,7 @@ export default function Navbar() {
               smooth={true}
               offset={-200}
               duration={500}
-              className="bg-[#1a4b61] py-2 px-7 mx-4  rounded-md cursor-pointer hover:bg-[#A0AECD] "
+              className="bg-[#1a4b61] py-2 px-7 mx-4  my-4 rounded-md cursor-pointer font-light  hover:bg-[#A0AECD] "
             >
               Request an audit
             </Link>
