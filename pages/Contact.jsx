@@ -55,7 +55,9 @@ export default function Contact() {
               <p className="text-[#8db9e2] pb-3 md:pr-0 pr-8 font-light">
                 info@draftdigital.org
               </p>
-              <p className="flex flex-col text-[#a1acba] pt-8 pb-3">Follow us</p>
+              <p className="flex flex-col text-[#a1acba] pt-8 pb-3">
+                Follow us
+              </p>
               <div className="text-[#8db9e2] flex flex-row gap-3">
                 <a
                   href="https://twitter.com/azdraft_"
@@ -130,9 +132,8 @@ export default function Contact() {
                 </Link>
               </ul>
             </div>
-            
           </div>
-           <div className="px-4 pl-20 pr-11 2xl:pt-32 md:pt-20 pt-12">
+          <div className="px-4 pl-20 pr-11 2xl:pt-32 md:pt-20 pt-12">
             <p className="text-[#a1acba] font-light pb-4">
               Let us know your email address and we will contact you.
             </p>
@@ -163,10 +164,14 @@ export default function Contact() {
         {/* The line! */}
         <div class="footer-cta pt-5 pb-5"></div>
         {/* Till here the line */}
-        <div className="md:flex flex-row md:gap-56 text-[#8db9e2] font-light p-4">
+        <div className="md:flex flex-row md:gap-56 text-[#8db9e2] font-light md:text-base text-[0.6rem] p-4">
           <small>Draft Digital founded in 2021.</small>
-          <small className="md:pl-0 pl-4">&copy; UI Designed with 🩵 by MG.</small>
-          <small className="md:flex hidden">Make the web3 a better place.</small>
+          <small className="md:pl-0 pl-4">
+            &copy; UI Designed with 🩵 by MG.
+          </small>
+          <small className="md:flex hidden">
+            Make the web3 a better place.
+          </small>
         </div>
       </footer>
     </div>

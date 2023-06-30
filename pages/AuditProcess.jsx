@@ -61,9 +61,9 @@ export default function AuditProcess() {
         An audit is a meticulous and detailed process. We guarantee the success
         of the service by providing a detailed roadmap.
       </p>
-      <div className="w-[24rem] flex md:hidden">
-      <Swiper
-          className="container w-[75%] md:text-base text-xs"
+      <div className="w-[25rem] flex md:hidden">
+        <Swiper
+          className="container w-[89%] text-base"
           modules={[Pagination, Navigation, Scrollbar, A11y]}
           spaceBetween={40}
           slidesPerView={1}
@@ -90,8 +90,8 @@ export default function AuditProcess() {
         </Swiper>
       </div>
       <div className="md:flex hidden">
-      <Swiper
-          className="container w-[75%] md:text-base text-xs"
+        <Swiper
+          className="container w-[75%] text-base"
           modules={[Pagination, Navigation, Scrollbar, A11y]}
           spaceBetween={40}
           slidesPerView={3}
@@ -116,11 +116,7 @@ export default function AuditProcess() {
             );
           })}
         </Swiper>
-
       </div>
-        
-
-      
     </div>
   );
 }
