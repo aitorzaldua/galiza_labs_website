@@ -32,7 +32,7 @@ export default function Contact() {
       <p className="md:text-6xl text-3xl text-gradient pb-4 px-16 font-light">
         Request an Audit
       </p>
-      <p className="md:text-xl text-[#8db9e2] md:w-[62rem] w-[24rem] 2xl:pb-24 pb-16 pt-6 md:pl-0 pl-4 font-light">
+      <p className="md:text-xl text-[#8db9e2] md:w-[62rem] tablet:w-[36rem] w-[24rem] 2xl:pb-24 pb-16 pt-6 md:pl-0 pl-4 font-light">
         Or simply get in touch and let us know how we can help you and your
         business. From a simple free consultation to a full audit, your project
         will definitely be safer.
@@ -164,7 +164,7 @@ export default function Contact() {
         {/* The line! */}
         <div class="footer-cta pt-5 pb-5"></div>
         {/* Till here the line */}
-        <div className="md:flex flex-row md:gap-56 text-[#8db9e2] font-light md:text-base text-[0.6rem] p-4">
+        <div className="md:flex flex-row md:gap-56 text-[#8db9e2] font-light text-base p-4">
           <small>Draft Digital founded in 2021.</small>
           <small className="md:pl-0 pl-4">
             &copy; UI Designed with 🩵 by MG.

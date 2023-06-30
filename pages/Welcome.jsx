@@ -4,8 +4,8 @@ import WelcomeImg from "../images/welcome/compas16.png";
 export default function Welcome() {
   return (
     <div className="flex w-full justify-center items-center 2xl:px-40 md:pb-0 pb-8">
-      <div className="flex md:flex-row flex-col items-start justify-between  md:py-24 py-12 md:p-20 ">
-        <div className="flex md:hidden flex-initial  justify-center md:w-[32rem] w-[24rem] items-center md:pt-2 2xl:pt-0 md:pr-4 2xl:pr-0">
+      <div className="flex md:flex-row tablet:flex-col flex-col items-start justify-between  md:py-24 py-12 md:p-20 ">
+        <div className="flex tablet:flex md:hidden flex-initial  justify-center md:w-[32rem] w-[24rem] items-center md:pt-2 2xl:pt-0 md:pr-4 2xl:pr-0">
           <Image src={WelcomeImg} alt="WelcomeImg" className="imgWelcome" />
         </div>
         {/* Left side */}
@@ -14,7 +14,7 @@ export default function Welcome() {
             Smart contract security services for EVM Blockchains
           </p>
 
-          <p className="md:flex hidden text-md text-[#8db9e2] pt-12 px-16 font-light">
+          <p className="md:flex tablet:hidden hidden text-md text-[#8db9e2] pt-12 px-16 font-light">
             We provide smart contract security analysis services, studying
             potential breaches and overseeing the implementation of secure smart
             contract protocols.
@@ -23,7 +23,7 @@ export default function Welcome() {
         {/* End of the Left side */}
 
         {/* Rigth side */}
-        <div className="md:flex hidden flex-initial  justify-center md:w-[32rem] items-center md:pt-2 2xl:pt-0 md:pr-4 2xl:pr-0">
+        <div className="md:flex tablet:hidden hidden flex-initial  justify-center md:w-[32rem] items-center md:pt-2 2xl:pt-0 md:pr-4 2xl:pr-0">
           <Image src={WelcomeImg} alt="WelcomeImg" className="imgWelcome" />
         </div>
       </div>

@@ -58,7 +58,7 @@ export default function Services() {
         <p className="flex justify-center md:text-6xl text-3xl text-gradient pb-4 pt-6 font-light">
           Services
         </p>
-        <p className="flex items-center justify-center text-[#8db9e2] md:w-[62rem] w-[24rem] md:pt-6 md:pl-0 font-light">
+        <p className="flex items-center justify-center text-[#8db9e2] md:w-[62rem] tablet:w-[36rem] w-[24rem] md:pt-6 md:pl-0 font-light">
           Draft Digital is a Web3 security company dedicated to providing high
           standards of protection and security for our partners and their
           projects. Our mission is to create a secure, reliable and transparent
@@ -66,7 +66,7 @@ export default function Services() {
         </p>
       </div>
 
-      <div className="flex-1 flex md:flex-row flex-col justify-start items-center md:w-[85rem]">
+      <div className="flex-1 flex md:flex-row tablet:flex-col flex-col justify-start items-center md:w-[85rem] tablet:w-[45rem]">
         <ServiceCard
           color=""
           title="Smart Contract Audits"
@@ -101,7 +101,7 @@ export default function Services() {
         />
       </div>
 
-      <div className="flex-1 flex md:flex-row flex-col justify-start items-center md:w-[85rem]">
+      <div className="flex-1 flex md:flex-row tablet:flex-col flex-col justify-start items-center md:w-[85rem] tablet:w-[45rem]">
         <ServiceCard2
           color="bg-[#25bdf8]"
           title="Web3 Security Education"

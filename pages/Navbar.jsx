@@ -11,7 +11,7 @@ export default function Navbar() {
       <div>
         <a
           href="#Services"
-          className="px-4 md:font-bold font-light relative w-max two"
+          className="px-4 md:font-bold tablet:font-light font-light relative w-max two"
         >
           <span>Services</span>
           <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-[#046bf1]"></span>
@@ -21,7 +21,7 @@ export default function Navbar() {
       <div>
         <a
           href="#AuditProcess"
-          className="px-4 pt-6 md:font-bold font-light relative w-max two"
+          className="px-4 pt-6 md:font-bold tablet:font-light font-light relative w-max two"
         >
           <span>Methodology</span>
           <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-[#046bf1]"></span>
@@ -32,7 +32,7 @@ export default function Navbar() {
         <a
           href="#Audits"
           offset={400}
-          className="px-4 md:font-bold font-light relative w-max two"
+          className="px-4 md:font-bold tablet:font-light font-light relative w-max two"
         >
           <span>Audits</span>
           <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-[#046bf1]"></span>
@@ -46,15 +46,15 @@ export default function Navbar() {
 
   return (
     <nav
-      className="w-full flex md:justify-center justify-between items-center pt-6 md:gap-2 2xl:gap-4"
+      className="w-full flex md:justify-center tablet:justify-between justify-between items-center pt-6 md:gap-2 2xl:gap-4"
       id="Nav"
     >
-      <div className="flex flex-initial justify-start items-center md:pr-56 2xl:pr-64">
+      <div className="flex flex-initial justify-start items-center md:pr-56 2xl:pr-64 tablet:pr-0">
         <Image src={logo} alt="logo" className="w-[17rem]" />
       </div>
 
-      <div className="text-[#8db9e2] md:flex hidden list-none flex-row justify-between items-center flex-initial md:pl-32 2xl:pl-56">
-        <Menu className="text-[#8db9e2] md:flex hidden list-none flex-row justify-between items-center flex-initial" />
+      <div className="text-[#8db9e2] md:flex tablet:hidden hidden list-none flex-row justify-between items-center flex-initial md:pl-32 2xl:pl-56 tablet:pl-0">
+        <Menu className="text-[#8db9e2] md:flex tablet:hidden hidden list-none flex-row justify-between items-center flex-initial" />
         <Link
           activeClass="active"
           to="Contact"
@@ -71,20 +71,20 @@ export default function Navbar() {
         {!toggleMenu && (
           <HiMenu
             fontSize={28}
-            className="text-[#8db9e2] md:hidden cursor-pointer"
+            className="text-[#8db9e2] md:hidden tablet:flex cursor-pointer"
             onClick={() => setToggleMenu(true)}
           />
         )}
         {toggleMenu && (
           <AiOutlineClose
             fontSize={28}
-            className="text-[#8db9e2] md:hidden cursor-pointer"
+            className="text-[#8db9e2] md:hidden tablet:flex cursor-pointer"
             onClick={() => setToggleMenu(false)}
           />
         )}
         {toggleMenu && (
           <ul
-            className="z-10 fixed -top-0 -right-2 p-3 w-[70vw] gap-5 h-screen shadow-2xl md:hidden list-none
+            className="z-10 fixed -top-0 -right-2 p-3 w-[70vw] gap-5 h-screen shadow-2xl md:hidden tablet:flex list-none
             flex flex-col justify-start items-end rounded-md blue-glassmorphism text-[#8db9e2] animate-slide-in"
           >
             <div className="text-xl w-full my-2">
