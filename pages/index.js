@@ -6,17 +6,16 @@ import Contact from "./Contact";
 import AuditProcess from "./AuditProcess";
 import Audits from "./Audits";
 
-
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Draft Digital</title>
+        <title>draft digital</title>
         <meta
           name="description"
-          content="Draft Digital is a supercool Blockchain company"
+          content="Draft Digital is a Web3 security company dedicated to providing high standards of protection and security for our partners and their projects. "
         />
-        <link rel="icon" href="/DDfavicon.png" sizes="512x512"/>
+        <link rel="icon" href="/DDfav2.png" sizes="460x542" />
       </Head>
       <div className="min-h-screen">
         <div className="gradient-bg-welcome">
