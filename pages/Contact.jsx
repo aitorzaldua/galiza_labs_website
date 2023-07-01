@@ -53,7 +53,7 @@ export default function Contact() {
             <div className="flex flex-col justify-start pl-20 pr-12">
               <p className="md:flex text-[#a1acba] pb-1">Email Us</p>
               <p className="text-[#8db9e2] pb-3 md:pr-0 pr-8 font-light">
-                info@draftdigital.org
+                info@draftdigital.xyz
               </p>
               <p className="flex flex-col text-[#a1acba] pt-8 pb-3">
                 Follow us
