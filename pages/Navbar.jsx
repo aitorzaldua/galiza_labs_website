@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Link } from "react-scroll/modules";
-import logo from "../images/Logos/DDLogo6.png";
+import logo from "../images/Logos/galizaLabsLogoTemp.png";
 import { useState } from "react";
 import { HiMenu } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
@@ -50,7 +50,7 @@ export default function Navbar() {
       id="Nav"
     >
       <div className="flex flex-initial justify-start items-center md:pr-56 2xl:pr-64 tablet:pr-0">
-        <Image src={logo} alt="logo" className="w-[17rem]" />
+        <Image src={logo} alt="logo" className="w-[9rem]" />
       </div>
 
       <div className="text-[#8db9e2] md:flex tablet:hidden hidden list-none flex-row justify-between items-center flex-initial md:pl-32 2xl:pl-56 tablet:pl-0">
